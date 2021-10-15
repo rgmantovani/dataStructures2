@@ -83,3 +83,77 @@ void insertionSort(int *v, int n) {
 
 /* ------------------------------------------------------- */
 /* ------------------------------------------------------- */
+
+void merge(int *v, int start, int middle, int end) {
+  
+  int *temp;
+  int i, j, k;
+  int p1, p2;
+  int vecSize;
+  
+  bool finished1 = false;
+  bool finished2 = false;
+  
+  vecSize = (end - start) + 1;
+  
+  p1 = start;
+  p2 = middle + 1;
+  
+  temp = (int*) malloc(vecSize * sizeof(int));
+  
+  if(temp != NULL) {
+    
+    for(i = 0; i < vecSize; i++) {
+      
+      if(!finished1 && !finished2) {
+        if(v[p1] < v[p2]) {
+          temp[i] = v[p1++];
+        } else {
+          temp[i] = v[p2++];
+        }
+        
+        /* checking if any sub vector finished */
+        if(p1 > middle){finished1 = true;}
+        if(p2 > end)   {finished2 = true;}
+        
+      } else {
+        /* copying the remaining elements */
+        if(!finished1)
+          temp[i] = v[p1++];
+        else
+          temp[i] = v[p2++];
+      }
+    }
+    /* copying elements from temp to v */
+    for(j=0, k=start; j<vecSize; j++, k++) {
+      v[k] = temp[j];
+    }
+   
+  } //if
+  free(temp);
+}
+
+/* ------------------------------------------------------- */
+/* ------------------------------------------------------- */
+
+void mergeSort(int *v, int start, int end) {
+  
+  int middle;
+
+  if(start < end) {
+    /* find the element in the middle */
+    middle = (int)floor((start + end)/2);
+//    printf("middle = %d\n", middle);
+    
+    /* calling recursively fot both halves of the original
+     array - reducing the problem */
+    mergeSort(v, start, middle);
+    mergeSort(v, (middle+1), end);
+   
+    /* merging them in the correct order */
+    merge(v, start, middle, end);
+  }
+}
+
+/* ------------------------------------------------------- */
+/* ------------------------------------------------------- */
