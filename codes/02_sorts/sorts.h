@@ -12,5 +12,7 @@ void insertionSort(int *v, int n);                    // Insertion Sort
 void selectionSort(int *v, int n);                    // Selection Sort
 void mergeSort(int *v, int start, int end);           // Merge Sort
 void merge(int *v, int start, int middle, int end);   // Merge Sort auxiliary function
+void quickSort(int *v, int start, int end);           // Quick Sort
+int partition(int *v, int start, int end);           // Partition (auxiliar)
 
 #endif /* sorts_h */
