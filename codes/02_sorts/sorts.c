@@ -14,18 +14,25 @@ void printArray(int *v, int tam) {
 /* ------------------------------------------------------- */
 /* ------------------------------------------------------- */
 
+// Function to swap the the position of two elements
+void swap(int *a, int *b) {
+  int temp = *a;
+  *a = *b;
+  *b = temp;
+}
+
+/* ------------------------------------------------------- */
+/* ------------------------------------------------------- */
+
 void bubbleSort(int *v, int n) {
 
-  int aux;
   bool changed = true;
   
   while(changed) {
     changed = false;
     for(int i = 0; i < n-1; i++) {
       if(v[i] > v[i+1]) {
-        aux    = v[i+1];
-        v[i+1] = v[i];
-        v[i]   = aux;
+        swap(&v[i], &v[i+1]);
         changed = true;
       }
     }
@@ -37,7 +44,7 @@ void bubbleSort(int *v, int n) {
 
 void selectionSort(int *v, int n) {
   
-  int i, j, min, aux;
+  int i, j, min;
   for(i = 0; i < n-1; i++) {
     min = i;
     
@@ -51,9 +58,7 @@ void selectionSort(int *v, int n) {
     
     /* swap elements of positions i and min */
     if(i != min) {
-      aux    = v[i];
-      v[i]   = v[min];
-      v[min] = aux;
+      swap(&v[i], &v[min]);
     }
   }
 }
@@ -143,7 +148,6 @@ void mergeSort(int *v, int start, int end) {
   if(start < end) {
     /* find the element in the middle */
     middle = (int)floor((start + end)/2);
-//    printf("middle = %d\n", middle);
     
     /* calling recursively fot both halves of the original
      array - reducing the problem */
@@ -162,9 +166,11 @@ void quickSort(int *v, int start, int end) {
   
   int pivot;
   if (end > start) {
+    /* finding the pivot */
     pivot = partition(v, start, end);
-    quickSort(v, start, pivot-1);
-    quickSort(v, pivot+1, end);
+    /* calling recursively for both paritions */
+    quickSort(v, start, pivot-1); // [start, pivot-1]
+    quickSort(v, pivot+1, end);   // [pivot+1, end]
   }
 }
 
@@ -173,7 +179,7 @@ void quickSort(int *v, int start, int end) {
 
 int partition(int *v, int start, int end) {
   
-  int left, right, pivot, aux;
+  int left, right, pivot;
   
   left  = start;
   right = end;
@@ -181,27 +187,77 @@ int partition(int *v, int start, int end) {
   
   while(left < right) {
     
-    // increase left index
+    /* increase left index */
     while(v[left] <= pivot) {
       left++;
     }
     
-    // decrease right index
+    /* decrease right index */
     while(v[right] > pivot) {
       right--;
     }
     
+    /* swap elements in the left and right
+      positions */
     if(left < right) {
-      aux      = v[left];
-      v[left]  = v[right];
-      v[right] = aux;
+      swap(&v[left], &v[right]);
     }
   }
   
+  /* select the pivot's correct position */
   v[start] = v[right];
   v[right] = pivot;
 
   return(right);
+}
+
+/* ------------------------------------------------------- */
+/* ------------------------------------------------------- */
+
+void heapSort(int *v, int n) {
+  
+  int i;
+  
+  /* build heap (rearrange array) */
+  for(i = n/2 - 1; i >=0; i--) {
+    heapify(v, n, i);
+  }
+  
+  /* One by one extract an element from heap */
+  for(i = n-1; i > 0; i--) {
+    /* Move current root to end */
+    swap(&v[0], &v[i]);
+    /* call max heapify on the reduced heap */
+    heapify(v, i, 0);
+  }
+}
+
+/* ------------------------------------------------------- */
+/* ------------------------------------------------------- */
+
+void heapify(int *v, int n, int i) {
+  
+  int largest = i;
+  int left    = 2 * i + 1;
+  int right   = 2 * i + 2;
+  
+  /* if left child is larger than root */
+  if(left < n && v[left] > v[largest]) {
+    largest = left;
+  }
+  
+  /* if right child is larger than largest so far */
+  if(right < n && v[right] > v[largest]) {
+    largest = right;
+  }
+  
+  /* if largest is not root */
+  if(largest != i) {
+    swap(&v[i], &v[largest]);
+    
+    /* recursively heapify the affected sub-tree*/
+    heapify(v, n, largest);
+  }
 }
 
 /* ------------------------------------------------------- */

@@ -8,6 +8,7 @@ int main(int argc, const char * argv[]) {
   int v3[] = {45, 36, 2, 8, 0, 1, 23, 2, 2, 10};
   int v4[] = {45, 36, 2, 8, 0, 1, 23, 2, 2, 10};
   int v5[] = {45, 36, 2, 8, 0, 1, 23, 2, 2, 10};
+  int v6[] = {45, 36, 2, 8, 0, 1, 23, 2, 2, 10};
 
   int N = 10;
   
@@ -28,6 +29,9 @@ int main(int argc, const char * argv[]) {
   quickSort(v5, 0, N-1);
   printArray(v5, N);
  
+  heapSort(v6, N);
+  printArray(v6, N);
+  
   return 0;
   
 }
