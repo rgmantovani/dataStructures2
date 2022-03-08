@@ -1,0 +1,10 @@
+i 558,Ash ketchum,m,12,mestre pokemon,(00)12345-6789
+i 439,Black Kamen Rider,m,25,heroi tokusatsu,(81)12345-1234
+d 171
+d 070
+d 523
+d 020
+d 038
+i 254,Cuca,f,98,vacinada pra caramba,(00)99999-9999
+i 459,Veronaice,f,55,code heroin,(43)43433-4343
+i 946,Samantha Raio Laser,f,25,raios energizados,(16)99912-0000

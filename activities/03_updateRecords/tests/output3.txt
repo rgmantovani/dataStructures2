@@ -1,0 +1,11 @@
+size=86 top=-1
+058|Professor Xavier              |m|50|telecinese                    |(00)00000-0000|
+254|Cuca                          |f|98|vacinada pra caramba          |(00)99999-9999|
+459|Veronaice                     |f|55|code heroin                   |(43)43433-4343|
+946|Samantha Raio Laser           |f|25|raios energizados             |(16)99912-0000|
+050|Senhora Puff                  |f|45|paciencia                     |(00)44444-4444|
+008|Sr. Kaioh do Norte            |m|99|artes marciais                |(00)55555-5555|
+999|Murieeeeeelllll               |m|40|desviar de balas              |(99)66666-6666|
+666|Tamaravilhosa                 |f|25|hot dogs com agua de salsicha |(33)88888-8888|
+558|Ash ketchum                   |m|12|mestre pokemon                |(00)12345-6789|
+439|Black Kamen Rider             |m|25|heroi tokusatsu               |(81)12345-1234|
