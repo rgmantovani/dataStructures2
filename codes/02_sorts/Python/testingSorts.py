@@ -12,6 +12,7 @@ if __name__ == '__main__':
     array1 = list(array)
     array2 = list(array)
     array3 = list(array)
+    array4 = list(array)
 
     print("* BubbleSort: ")
     print("Antes: ", array1)
@@ -19,16 +20,22 @@ if __name__ == '__main__':
     print("Depois:", array1)
     print("\n")
 
-    print("* SelectionSort: ")
+    print("* Short BubbleSort: ")
     print("Antes: ", array2)
-    selectionSort(array2)
+    shortBubbleSort(array2)
     print("Depois:", array2)
     print("\n")
 
-    print("* InsertionSort: ")
+    print("* SelectionSort: ")
     print("Antes: ", array3)
-    insertionSort(array3)
+    selectionSort(array3)
     print("Depois:", array3)
+    print("\n")
+
+    print("* InsertionSort: ")
+    print("Antes: ", array4)
+    insertionSort(array4)
+    print("Depois:", array4)
     print("\n")
 
 # ---------------------------------------------------------------------------------------

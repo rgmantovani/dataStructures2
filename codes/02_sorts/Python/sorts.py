@@ -8,6 +8,20 @@ def bubbleSort(array):
                 array[i], array[i+1] = array[i+1], array[i]
 
 # ---------------------------------------------------------------------------------------
+# Short Bubble Sort
+# ---------------------------------------------------------------------------------------
+def shortBubbleSort(array):
+    exchanges = True
+    k = len(array)-1
+    while k > 0 and exchanges:
+       exchanges = False
+       for i in range(k):
+           if array[i]>array[i+1]:
+               exchanges = True
+               array[i], array[i+1] = array[i+1], array[i]
+       k = k-1
+
+# ---------------------------------------------------------------------------------------
 # Selection Sort
 # ---------------------------------------------------------------------------------------
 
