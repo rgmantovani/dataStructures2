@@ -13,6 +13,7 @@ if __name__ == '__main__':
     array2 = list(array)
     array3 = list(array)
     array4 = list(array)
+    array5 = list(array)
 
     print("* BubbleSort: ")
     print("Antes: ", array1)
@@ -36,6 +37,12 @@ if __name__ == '__main__':
     print("Antes: ", array4)
     insertionSort(array4)
     print("Depois:", array4)
+    print("\n")
+
+    print("* MergeSort: ")
+    print("Antes: ", array5)
+    mergeSort(array5)
+    print("Depois:", array5)
     print("\n")
 
 # ---------------------------------------------------------------------------------------
