@@ -14,6 +14,7 @@ if __name__ == '__main__':
     array3 = list(array)
     array4 = list(array)
     array5 = list(array)
+    array6 = list(array)
 
     print("* BubbleSort: ")
     print("Antes: ", array1)
@@ -41,8 +42,14 @@ if __name__ == '__main__':
 
     print("* MergeSort: ")
     print("Antes: ", array5)
-    mergeSort(array5)
+    array5 = mergeSort(array5)
     print("Depois:", array5)
+    print("\n")
+
+    print("* Quick Sort: ")
+    print("Antes: ", array6)
+    quickSort(array6)
+    print("Depois:", array6)
     print("\n")
 
 # ---------------------------------------------------------------------------------------

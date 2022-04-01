@@ -51,13 +51,12 @@ def insertionSort(array):
 # Merge Sort
 # ---------------------------------------------------------------------------------------
 # https://codereview.stackexchange.com/questions/154135/recursive-merge-sort-in-python
-def merge(left, right):
-    letf_index  = 0
-    right_index = 0
-    result = []
 
+def merge(left, right):
+    left_index, right_index = 0, 0
+    result = []
     while left_index < len(left) and right_index < len(right):
-        if(left[left_index] < right[right_index]):
+        if left[left_index] < right[right_index]:
             result.append(left[left_index])
             left_index += 1
         else:
@@ -70,24 +69,50 @@ def merge(left, right):
 
 
 def mergeSort(array):
+    if len(array) <= 1:  # base case
+        return array
 
-    print("Merge Sort")
-    print(array)
-
-    #ending the recursion (base criteria)
-    if len(array) <= 1:
-        return array;
-
-    # divide the array in half, call recursions, and merge halves
-    half     = len(array)//2
-    left     = mergeSort(array=array[:half])
-    right    = mergeSort(array=array[:half])
-    newArray = merge(left=left, right=right)
-    return newArray
+    # divide array in half and merge sort recursively
+    half  = len(array) // 2
+    left  = mergeSort(array[:half])
+    right = mergeSort(array[half:])
+    return merge(left, right)
 
 # ---------------------------------------------------------------------------------------
 # Quick Sort
 # ---------------------------------------------------------------------------------------
+
+def quickSort(alist):
+   quickSortHelper(alist,0,len(alist)-1)
+
+
+def quickSortHelper(alist,first,last):
+   if first<last:
+       splitpoint = partition(alist,first,last)
+       quickSortHelper(alist,first,splitpoint-1)
+       quickSortHelper(alist,splitpoint+1,last)
+
+
+def partition(array, first, last):
+   pivotvalue = array[first]
+   leftmark = first+1
+   rightmark = last
+
+   done = False
+   while not done:
+       while leftmark <= rightmark and array[leftmark] <= pivotvalue:
+           leftmark = leftmark + 1
+
+       while array[rightmark] >= pivotvalue and rightmark >= leftmark:
+           rightmark = rightmark -1
+
+       if rightmark < leftmark:
+           done = True
+       else:
+           array[leftmark], array[rightmark] = array[rightmark], array[leftmark]
+
+   array[first], array[rightmark] = array[rightmark], array[first]
+   return rightmark
 
 
 # ---------------------------------------------------------------------------------------
