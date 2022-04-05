@@ -3,3 +3,4 @@ selectionSort: 1 2 3 4 5 6 7 8 9 10, 100 comp, 50 ms
 bubbleSort: 1 2 3 4 5 6 7 8 9 10, 100 comp, 100 ms
 mergeSort: 1 2 3 4 5 6 7 8 9 10, 70 comp, 15 ms
 quickSort: 1 2 3 4 5 6 7 8 9 10, 50 comp, 10 ms
+heapSort: 1 2 3 4 5 6 7 8 9 10, 40 comp, 10 ms
