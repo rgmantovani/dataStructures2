@@ -15,26 +15,27 @@ if __name__ == '__main__':
     array4 = list(array)
     array5 = list(array)
     array6 = list(array)
+    array7 = list(array)
 
-    print("* BubbleSort: ")
+    print("* Bubble Sort: ")
     print("Antes: ", array1)
     bubbleSort(array1)
     print("Depois:", array1)
     print("\n")
 
-    print("* Short BubbleSort: ")
+    print("* Short Bubble Sort: ")
     print("Antes: ", array2)
     shortBubbleSort(array2)
     print("Depois:", array2)
     print("\n")
 
-    print("* SelectionSort: ")
+    print("* Selection Sort: ")
     print("Antes: ", array3)
     selectionSort(array3)
     print("Depois:", array3)
     print("\n")
 
-    print("* InsertionSort: ")
+    print("* Insertion Sort: ")
     print("Antes: ", array4)
     insertionSort(array4)
     print("Depois:", array4)
@@ -50,6 +51,12 @@ if __name__ == '__main__':
     print("Antes: ", array6)
     quickSort(array6)
     print("Depois:", array6)
+    print("\n")
+
+    print("* Heap Sort: ")
+    print("Antes: ", array7)
+    heapSort(array7)
+    print("Depois:", array7)
     print("\n")
 
 # ---------------------------------------------------------------------------------------

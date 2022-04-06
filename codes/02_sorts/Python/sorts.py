@@ -114,6 +114,36 @@ def partition(array, first, last):
    array[first], array[rightmark] = array[rightmark], array[first]
    return rightmark
 
+# ---------------------------------------------------------------------------------------
+# Heap Sort
+# ---------------------------------------------------------------------------------------
+def maxHeapify(array, i, heapSize):
+    left  = 2*i+1
+    right = 2*i+2
+    largest = i
+
+    if(left <= (heapSize-1)) and (array[left] > array[i]):
+        largest = left
+    if (right <= (heapSize-1)) and (array[right] > array[largest]):
+        largest = right
+
+    if i != largest:
+        array[i], array[largest] = array[largest], array[i]
+        maxHeapify(array, largest, heapSize-1)
+
+def buildMaxHeap(array, heapSize): #ok
+    idxs = range(len(array)/2, -1, -1)
+    for index in idxs:
+        maxHeapify(array, index, heapSize)
+
+def heapSort(array):
+    heapSize = len(array)
+    buildMaxHeap(array, heapSize)
+    idxs = range(len(array)-1, 0, -1)
+    for index in idxs:
+        array[0], array[index] = array[index], array[0]
+        heapSize = heapSize - 1
+        maxHeapify(array, 0, heapSize)
 
 # ---------------------------------------------------------------------------------------
 # ---------------------------------------------------------------------------------------
