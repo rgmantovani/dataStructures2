@@ -178,3 +178,37 @@ void mergeSort(int *v, int start, int end) {
 
 /* ------------------------------------------------------- */
 /* ------------------------------------------------------- */
+
+void quickSort(int *v, int start, int end) {
+  int pivot;
+  if(end > start) {
+    pivot = makePartitions(v, start, end);
+    quickSort(v, start, pivot-1);
+    quickSort(v, pivot+1, end);
+  }
+}
+
+int makePartitions(int *v, int start, int end) {
+
+  int left = start;
+  int right  = end;
+  int pivot     = v[start];
+
+  while(left < right) {
+    while(v[left] <= v[pivot]) {
+      left++;
+    }
+    while(v[right] > pivot) {
+      right--;
+    }
+    if(left < right) {
+      swap(&v[left], &v[right]);
+    }
+  }
+  v[start] = v[right];
+  v[right] = pivot;
+  retorna(right);
+}
+
+/* ------------------------------------------------------- */
+/* ------------------------------------------------------- */
