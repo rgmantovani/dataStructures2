@@ -1,4 +1,4 @@
-size=86 top=03
+size=86 top=3
 058|Professor Xavier              |m|50|telecinese                    |(00)00000-0000|
 056|Professor M                   |m|34|games da nintendo             |(11)10101-0101|
 *4||Professor Utonio              |m|40|ser pai                       |(00)22222-2222|

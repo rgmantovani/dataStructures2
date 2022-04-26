@@ -1,4 +1,4 @@
-size=86 top=00
+size=86 top=0
 *6||Professor Xavier              |m|50|telecinese                    |(00)00000-0000|
 459|Veronaice                     |f|55|code heroin                   |(43)43433-4343|
 254|Cuca                          |f|98|vacinada pra caramba          |(00)99999-9999|
