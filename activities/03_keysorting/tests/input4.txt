@@ -1,0 +1,23 @@
+SIZE=136 TOP=-1 QTDE=22 SORT=Q ORDER=D
+14|James|Logan|Wolverine|fator cura|jean gray|Canada|alcoolatra
+38|T'challa|King|Pantera Negra|roupa|sem a roupa|Wakanda|rei
+87|Bruce|Banner|Hulk|forte para caralho|viuva negra|nova york|fisico
+96|Virgil|Hawkins|Super Choque|choque|borracha|Dakota|estudante
+85|Hal|Jordan|Lanterna Verde|Anel|Lanterna amarelo|Coast City|piloto
+81|Diana|Prince|Mulher Maravilha|força para caralho|Steve turner|Themyscira|guerreira
+70|Wade|Wilson|Deadpool|fator de cura|maluco|Canada|mercenario
+02|Barry|Allen|Flash|correr|cadarço|Star city|policial forense
+08|Steve|Rogers|Capitão América|super soldado|freezer|Nova York|soldado
+52|Bruce|Wayne|Batman|rico|pobre|Gothan city|magnata
+21|Doug|Funny|Homem Codorna|Cinto na cabeça|Paty Maionese|States|estudante
+54|Bros|Mario|Super Mario|cogumelo|princesa|No cano|encanador
+24|Bros|Luigi|Mario Verde|pular mais alto|fantasma|No cano|ser irmão do mario
+59|Marc|Spector|Cavaleiro da Lua|traje|esquizofrenia|Egito|mercenário
+18|Charles|Xavier|Professor X|mega mente|pernas|mansão maromba|psicólogo
+91|Shark|Boy|Shark Boy|Shark|boy|Oceano|pescador
+67|Lava|Girl|Lava Girl|Lava|Agua|Vulcao|bombeira
+42|Link|Link|Zelda|Triforce|Ganondorf|Hyrule|duende
+17|Ernie|Sereia|Homem Sereia|Sereia|Homem|Fenda do biquini|aposentado
+95|Mendigo|Dos Mares|Mendigo do Mares|Mendigo|Riqueza|Mares|Lixeiro
+45|Lloyd|Garmadon|Green Ninja| Verde|Lord Garmadon|Ninjago|Ninja
+74|Mestre|Dos Magos|Mestre dos Magos|Sumir|Aparecer|O Reino|Guia

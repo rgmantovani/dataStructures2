@@ -1,0 +1,23 @@
+SIZE=136 TOP=-1 QTDE=22 SORT=M ORDER=D
+96|Lloyd|Garmadon|Green Ninja| Verde|Lord Garmadon|Ninjago|Ninja
+94|Mendigo|Dos Mares|Mendigo do Mares|Mendigo|Riqueza|Mares|Lixeiro
+81|Wade|Wilson|Deadpool|fator de cura|maluco|Canada|mercenario
+79|Charles|Xavier|Professor X|mega mente|pernas|mansão maromba|psicólogo
+72|Bruce|Wayne|Batman|rico|pobre|Gothan city|magnata
+68|Barry|Allen|Flash|correr|cadarço|Star city|policial forense
+66|Doug|Funny|Homem Codorna|Cinto na cabeça|Paty Maionese|States|estudante
+64|Ernie|Sereia|Homem Sereia|Sereia|Homem|Fenda do biquini|aposentado
+62|Bruce|Banner|Hulk|forte para caralho|viuva negra|nova york|fisico
+54|Shark|Boy|Shark Boy|Shark|boy|Oceano|pescador
+51|Bros|Luigi|Mario Verde|pular mais alto|fantasma|No cano|ser irmão do mario
+48|Link|Link|Zelda|Triforce|Ganondorf|Hyrule|duende
+46|Marc|Spector|Cavaleiro da Lua|traje|esquizofrenia|Egito|mercenário
+40|Mestre|Dos Magos|Mestre dos Magos|Sumir|Aparecer|O Reino|Guia
+37|T'challa|King|Pantera Negra|roupa|sem a roupa|Wakanda|rei
+33|Steve|Rogers|Capitão América|super soldado|freezer|Nova York|soldado
+29|Diana|Prince|Mulher Maravilha|força para caralho|Steve turner|Themyscira|guerreira
+27|Hal|Jordan|Lanterna Verde|Anel|Lanterna amarelo|Coast City|piloto
+14|Bros|Mario|Super Mario|cogumelo|princesa|No cano|encanador
+12|James|Logan|Wolverine|fator cura|jean gray|Canada|alcoolatra
+07|Lava|Girl|Lava Girl|Lava|Agua|Vulcao|bombeira
+05|Virgil|Hawkins|Super Choque|choque|borracha|Dakota|estudante
