@@ -52,31 +52,34 @@ def insertionSort(array):
 # ---------------------------------------------------------------------------------------
 # https://codereview.stackexchange.com/questions/154135/recursive-merge-sort-in-python
 
-def merge(left, right):
-    left_index, right_index = 0, 0
-    result = []
-    while left_index < len(left) and right_index < len(right):
-        if left[left_index] < right[right_index]:
-            result.append(left[left_index])
-            left_index += 1
-        else:
-            result.append(right[right_index])
-            right_index += 1
-
-    result += left[left_index:]
-    result += right[right_index:]
-    return result
-
-
 def mergeSort(array):
-    if len(array) <= 1:  # base case
-        return array
+    if len(array) > 1:
+        r = len(array)//2
+        L = array[:r]
+        M = array[r:]
 
-    # divide array in half and merge sort recursively
-    half  = len(array) // 2
-    left  = mergeSort(array[:half])
-    right = mergeSort(array[half:])
-    return merge(left, right)
+        mergeSort(L)
+        mergeSort(M)
+
+        i = j = k = 0
+        while i < len(L) and j < len(M):
+            if L[i] < M[j]:
+                array[k] = L[i]
+                i += 1
+            else:
+                array[k] = M[j]
+                j += 1
+            k += 1
+
+        while i < len(L):
+            array[k] = L[i]
+            i += 1
+            k += 1
+
+        while j < len(M):
+            array[k] = M[j]
+            j += 1
+            k += 1
 
 # ---------------------------------------------------------------------------------------
 # Quick Sort
