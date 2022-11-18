@@ -8,8 +8,8 @@ from IdxPrimario import *
 
 if __name__ == '__main__':
     print("holla que tal?")
-    obj = IdxPrimario(idxFile = "idxFile.txt")
-    #obj = IdxPrimario(dataFile = "heroi.txt", idxFile = "idxFile.txt")
+    # obj = IdxPrimario(idxFile = "idxFile.txt")
+    obj = IdxPrimario(dataFile = "games.txt", idxFile = "idxFile.txt")
 
 # ----------------------------------------------------
 # ----------------------------------------------------
