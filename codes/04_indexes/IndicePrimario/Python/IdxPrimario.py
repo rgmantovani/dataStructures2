@@ -6,18 +6,16 @@ class IdxPrimario:
     # *** atributos
     __arquivoDados    = None   # string
     __arquivoIndices  = None   # string
-    __hasException    = False
     __tabelaIndices   = list() # lista de tuplas ( RRN , CC )
 
     #-------------------------------------------------------
     #-------------------------------------------------------
 
-    def __init__(self, dataFile = None, idxFile = None):
+    def __init__(self, dataFile = None, idxFile = None, debug = False):
 
         print(" - Construindo uma Tabela de indices")
         if(dataFile == None or idxFile == None):
             raise Exception("Por favor, informe o nome dos arquivos de dados e indices")
-            self.__hasException = True
             exit(1)
         else:
             # abrindo arquivo de dados
@@ -26,17 +24,11 @@ class IdxPrimario:
                 self.__arquivoDados = open(dataFile, "r+")
             except FileNotFoundError as error:
                 print(error)
-                self.__hasException = True
                 exit(1)
 
             #abrindo arquivo de indices
-            try:
-                print("* Arquivo de Indices: " + idxFile)
-                self.__arquivoIndices = open(idxFile, "w+")
-            except FileNotFoundError as error:
-                print(error)
-                self.__hasException = True
-                exit(1)
+            print("* Arquivo de Indices: " + idxFile)
+            self.__arquivoIndices = open(idxFile, "w+")
 
             # imprimindo a lista de
             print("* Lista de Tuplas")
@@ -46,27 +38,22 @@ class IdxPrimario:
             linhas = self.__arquivoDados.readlines()
 
             #  - percorrer o arquivo de dados
-            # 0 até qtdeLinhas (len/size linhas)
-            # header = linhas[0]
+            # 0 até qtdeLinhas (len/size linhas) - header = linhas[0]
             for index in range(1, len(linhas)):
-            #      * ler o registro da linha
-                print(index,":",linhas[index])
-            #      * criar chave canonica, RRN
                 key = self.criaChaveCanonica(registro = linhas[index])
-                print("Key: ", key)
-            #      * gera tupla (RRN, CC)
                 RRN = index - 1
-                print("RRN: ", RRN)
-            #      * add na lista
                 tupla = (RRN, key)
                 self.__tabelaIndices.append(tupla)
+                if(debug == True):
+                    print(index,":",linhas[index])
+                    print("RRN: ", RRN)
+                    print("Key: ", key)
 
-            # print(self.__tabelaIndices)
-            self.imprimeTabelaIndices(tabela = self.__tabelaIndices)
-            print("\n **** Depois do Sort ***** ")
             # ordenar a tabela de indices
             self.__tabelaIndices.sort(key = lambda tup: tup[1])
-            self.imprimeTabelaIndices(tabela = self.__tabelaIndices)
+            if(debug == True):
+                print("\n **** Depois do Sort ***** ")
+                self.imprimeTabelaIndices(tabela = self.__tabelaIndices)
 
     #-------------------------------------------------------
     #-------------------------------------------------------
@@ -74,9 +61,7 @@ class IdxPrimario:
     def criaChaveCanonica(self, registro):
         aux = registro.strip()
         tokens = aux.split("|")
-        # print("Tokens: ", tokens)
-        # ano, nome
-        key = tokens[0] + tokens[4]
+        key = tokens[0] + tokens[4]  # ano +  nome
         key = key.upper()
         key = key.replace(" ", "")
         return (key)
@@ -104,7 +89,6 @@ class IdxPrimario:
     #-------------------------------------------------------
 
     def gravarArqIdx(self):
-        print("Uuuuuuhhhhh")
         for elem in self.__tabelaIndices:
             self.__arquivoIndices.write(str(elem) + "\n")
 
@@ -115,12 +99,47 @@ class IdxPrimario:
         pass
 
     def inserirRegistro(self, registro):
-        pass
+        print(" *** Inserindo um novo registro")
+        key = self.criaChaveCanonica(registro = registro)
+        # 1. Verifica se ja existe registro na Tabela de Indices
+        #      - Se existir, já termina (não insere)
+        output = [item for item in self.__tabelaIndices if item[1] == key]
+        if(len(output) == 0):
+            print(" - Não existe o elemento, inserindom ...")
+            # 2. Verifica se existe opção/posição p reuso
+            #      - Se tiver posicao (TOP = X)
+            #           - escrever o registro na posicao X
+            #      - Senão: append no final do arquivo
+            self.__arquivoDados.write(registro)
+            # 4. Cria a nova entrada na Tabela de Indices
+            newEntry = (len(self.__tabelaIndices), key)
+            # print(newEntry)
+            self.__tabelaIndices.append(newEntry)
+            # 5. Reordenação da Tabela de Indices
+            self.__tabelaIndices.sort(key = lambda tup: tup[1])
+            # print("-----------------------------------------")
+            # self.imprimeTabelaIndices(tabela = self.__tabelaIndices)
+        else:
+            print("- Elemento já existe. Não inserindo!")
 
     def removerRegistro(self, chave):
+        # 1. Verificar se existe a chave na Tabela de indices
+        #      - se não existir: é tetra (acabou!)
+        # 2. Se existir
+        #      - Invalida/remove o registro no arquivo de indices
+        #      - Opçoes:
+        #          * A: remove a tupla da tabela de Indices
+        #          * B: invalidação da tupla na tabela de Indices
         pass
 
-    def pesquisarRegistro(self, chave):
+    def pesquisarRegistro(self, chave): # [retornar 1 registro ou nada]
+        # 1. Pesquisa/busca binária na Tabela de indices
+        # na coluna Chave Canonica
+        # 2a. Falhou -> return None
+        # 2b. Encontrei: (Caralho! É isso)
+        #   - acessar o RRN (tupla)
+        #   - fazer a leitura do registro no arquivo de dados (via RRN)
+        #   - retornar (registro)
         pass
 
     def atualizarIndice(self):
