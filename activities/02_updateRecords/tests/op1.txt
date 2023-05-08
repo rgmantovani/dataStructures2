@@ -1,0 +1,5 @@
+i, Resident Evil 4,Capcom,Action Horror,Multiplataforma,2005,Mature 17+,190.00,Ambos,15.0
+i, Hollow Knight,Team Cherry,Metroidvania,Multiplataforma,2017,Everyone 10+,24.97,Digital,5.3
+d, HOLLOWKNIGHT2017
+d, SQUAD2020
+d, HALO32007

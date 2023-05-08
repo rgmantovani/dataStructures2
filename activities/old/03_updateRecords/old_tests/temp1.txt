@@ -1,0 +1,9 @@
+size=86 top=3
+058|Professor Xavier              |m|50|telecinese                    |(00)00000-0000|
+056|Professor M                   |m|34|games da nintendo             |(11)10101-0101|
+*4||Professor Utonio              |m|40|ser pai                       |(00)22222-2222|
+*2||Professor Girafales           |m|55|ensino basico                 |(00)33333-3333|
+*-1|Senhora Puff                  |f|45|paciencia                     |(00)44444-4444|
+008|Sr. Kaioh do Norte            |m|99|artes marciais                |(00)55555-5555|
+999|Murieeeeeelllll               |m|40|desviar de balas              |(99)66666-6666|
+191|Andrezaaaaaaaao               |m|38|joguinhos                     |(00)77777-7777|

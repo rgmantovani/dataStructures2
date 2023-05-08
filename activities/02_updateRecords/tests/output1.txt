@@ -1,6 +1,14 @@
-size=86 top=-1
-058|Professor Xavier              |m|50|telecinese                    |(00)00000-0000|
-056|Professor M                   |m|34|games da nintendo             |(11)10101-0101|
-008|Sr. Kaioh do Norte            |m|99|artes marciais                |(00)55555-5555|
-999|Murieeeeeelllll               |m|40|desviar de balas              |(99)66666-6666|
-191|Andrezaaaaaaaao               |m|38|joguinhos                     |(00)77777-7777|
+REG.N=13 TOP=12
+Devil May Cry 5|Capcom|Hack and Slash|Multiplataforma|2019|Mature 17+|99.90|Ambos|35.0
+The Binding of Isaac: Rebirth|Nicalis|Roguelike|PC|2014|Mature 17+|27.99|Digital|0.449
+Blasphemous|Team17|Metroidvania|Multiplataforma|2019|Mature+18|57.99|Digital|0.85388
+Pokemon Emerald|Nintendo|RPG de turno|GBA|2004|Everyone|34.99|Ambos|0.016
+Final Fantasy XV|Square Enix|Action RPG|Multiplataforma|2016|Teen|125.00|Ambos|100.0
+Rocket League|Psyonix|Sports|Multiplataforma|2015|Everyone|Free|Digital|20.0
+Fallout 4|Bethesda Game Studios|RPG|Multiplataforma|2015|Mature 17+|59.99|Ambos|36.23
+Borderlands 3|Gearbox Software|RPG|Multiplataforma|2020|Mature 17+|119.90|Ambos|94.38
+Arma 3|Bohemia Interactive|Simulacao|PC|2013|Mature 17+|29.99|Digital|40.57
+Halo 4|343 Industries|FPS|Xbox 360/One/Series|2012|Mature 17+|49.00|Ambos|55.0
+Bleach Brave Souls|KlabGames|Action RPG|Multiplataforma|2016|12+|00.00|Digital|5.0
+Counter Strike Global Offensive|Valve|First-person Shooter|PC|2012|16+|F2P|Digital|29.51
+Resident Evil 4,Capcom,Action Horror,Multiplataforma,2005,Mature 17+,190.00,Ambos,15.0
