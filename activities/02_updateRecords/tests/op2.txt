@@ -1,0 +1,10 @@
+i, Little Big Adventure 2,Adeline Software International,Action-adventure,PC,1997,Everyone,24.89,Digital,0.474
+d, DEVILMAYCRY32019
+d, GUITARHEROAEROSMITH2008
+d, GUITARHEROII2006
+i, Harvest Moon: Back to Nature,Marvelous Entertainment,Simulacao,Multiplataforma,1999,Everyone,,Fisica,0.024
+i, God of War 2,Santa Monica Studios,Hack and Slash,Playstation,2007,Mature 17+,,Fisica,5.77 
+d, THEHIDDENANDUNKNOWN2022
+i, Burnout 3: Takedown,Criterion Games,Corrida,Multiplataforma,2004,3+,,Fisica,1.47 
+d,  HALO42012
+d GENSHINIMPACT2020

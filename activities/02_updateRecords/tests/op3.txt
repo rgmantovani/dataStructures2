@@ -1,0 +1,13 @@
+i, 26 Bloons TD 6,Ninja Kiwi,Estrategia,Multiplataforma,2018,10+,Digital,0.2048
+i, 38 Valheim,Iron Gate AB,RPG,Multiplataforma,2021,12+,37.99,Digital,1.17
+d, LEFT4DEAD22009
+d, MARVELSSPIDERMAN2018
+d, OVERWATCH22022
+d, GODOFWAR22007
+i, The Sims 2,Electronic Arts,Simulacao Social,Multiplataforma,2004,Teen,,Ambos,3.5
+i, Monster Hunter: World,CAPCOM,RPG,Multiplataforma,2018,12+,69.99,Ambos,51.17
+d, THEHIDDENANDUNKOWN2022
+d, HARVESTMOON:BACKTONATURE1999
+i, Bleach Brave Souls,KlabGames,Action RPG,Multiplataforma,2016,12+,00.00,Digital,5.0
+d, DONKEYKONG1981
+d, NEEDFORSPEED:UNDERGROUND22004

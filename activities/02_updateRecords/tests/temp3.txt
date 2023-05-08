@@ -1,0 +1,18 @@
+REG.N=17 TOP=-1
+Guitar Hero |Activision|Musical|Multiplataforma|2005|Teen||Fisica|1.63
+Guitar Hero II|Activision|Musical|Multiplataforma|2006|Teen||Fisica|2.92
+Guitar Hero III|Activision|Musical|Multiplataforma|2007|Teen||Fisica|5.1
+Valorant|Riot Games|FPS|PC|2020|14+|Free|Digital|10
+Call of Duty: Black Ops 2|Treyarch|FPS|Multiplataforma|2012|18+|89.99|Ambos|16
+Horizon Zero Dawn|Guerrilla Games|RPG|Multiplataforma|2017|14+|199.90|Ambos|100
+Monster Hunter: World|CAPCOM|RPG|Multiplataforma|2018|12+|69.99|Ambos|51.17
+Shin Megami Tensei: Persona 3|Atlus|RPG|PS2|2006|Mature 17+|30.00|Fisico|1.9
+Team Fortress 2|Valve|FPS|Multiplataforma|2007|Mature 17+|F2P|Ambos|15.0
+The Sims 2|Electronic Arts|Simulacao Social|Multiplataforma|2004|Teen||Ambos|3.5
+Genshin Impact|miHoYo|RPG|Multiplataforma|2020|Teen|F2P|Digital|30.0
+Destiny|Bungie|FPS/RPG|Multiplataforma|2014|Teen|59.99|Ambos|55.0
+Destiny 2|Bungie|FPS/RPG|Multiplataforma|2017|Teen|F2P|Ambos|68.0
+Minecraft|Microsoft/Mojang|Sandbox|Multiplataforma|2011|Everyone 10+|129.00|Ambos|4.0
+Bleach Brave Souls|KlabGames|Action RPG|Multiplataforma|2016|12+|00.00|Digital|5.0
+Bloons TD 6|Ninja Kiwi|Estrategia|Multiplataforma|2018|10+|Digital|0.2048
+Valheim|Iron Gate AB|RPG|Multiplataforma|2021|12+|37.99|Digital|1.17
