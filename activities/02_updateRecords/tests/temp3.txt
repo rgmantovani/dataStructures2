@@ -1,5 +1,5 @@
 REG.N=17 TOP=-1
-Guitar Hero |Activision|Musical|Multiplataforma|2005|Teen||Fisica|1.63
+Guitar Hero|Activision|Musical|Multiplataforma|2005|Teen||Fisica|1.63
 Guitar Hero II|Activision|Musical|Multiplataforma|2006|Teen||Fisica|2.92
 Guitar Hero III|Activision|Musical|Multiplataforma|2007|Teen||Fisica|5.1
 Valorant|Riot Games|FPS|PC|2020|14+|Free|Digital|10

@@ -25,7 +25,7 @@ REG.N=68 TOP=-1
 23 Counter Strike Global Offensive|Valve|First-person Shooter|PC|2012|16+|F2P|Digital|29.51
 24 Celeste|Extremely OK Games, Ltd.|Adventure|Multiplataforma|2018|Everyone|36.99|Digital|1.2
 25 Sifu|Sloclap|Acao e Aventura|Multiplataforma|2022|17+|75.99|Digital|22
-26 Bloons TD 6|Ninja Kiwi|Estrategia|Multiplataforma|2018|10+|Digital|0.2048
+26 Bloons TD 6|Ninja Kiwi|Estrategia|Multiplataforma|2018|10+||Digital|0.2048
 27 Donkey Kong|Shigeru Miyamoto|Plataforma|1981|Everyone|Fisico||
 28 GTA San Andreas|Rockstar|Mundo aberto|Multiplataforma|2015|18+||Ambos||
 29 GTA V|Rockstar|Mundo aberto|Multiplataforma|2013|18+|Ambos|106.65
@@ -61,7 +61,7 @@ REG.N=68 TOP=-1
 59 Shin Megami Tensei: Persona 3|Atlus|RPG|PS2|2006|Mature 17+|30.00|Fisico|1.9
 60 Team Fortress 2|Valve|FPS|Multiplataforma|2007|Mature 17+|F2P|Ambos|15.0
 61 Dying Light|Warner Bros|Survival Horror|Multiplataforma|2015|Mature 17+|152.39|Digital|40.0
-62 Overwatch 2|Blizzard|FPS|Multiplataforma|2022|Teen 13+|F2P|50.0
+62 Overwatch 2|Blizzard|FPS|Multiplataforma|2022|Teen 13+|F2P|Digital|50.0
 63 Genshin Impact|miHoYo|RPG|Multiplataforma|2020|Teen|F2P|Digital|30.0
 64 Destiny|Bungie|FPS/RPG|Multiplataforma|2014|Teen|59.99|Ambos|55.0
 65 Destiny 2|Bungie|FPS/RPG|Multiplataforma|2017|Teen|F2P|Ambos|68.0
