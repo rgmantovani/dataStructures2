@@ -6,7 +6,7 @@ d, OVERWATCH22022
 d, GODOFWAR22007
 i, The Sims 2,Electronic Arts,Simulacao Social,Multiplataforma,2004,Teen,,Ambos,3.5
 i, Monster Hunter: World,CAPCOM,RPG,Multiplataforma,2018,12+,69.99,Ambos,51.17
-d, THEHIDDENANDUNKOWN2022
+d, THEHIDDENANDUNKNOWN2022
 d, HARVESTMOON:BACKTONATURE1999
 i, Bleach Brave Souls,KlabGames,Action RPG,Multiplataforma,2016,12+,00.00,Digital,5.0
 d, DONKEYKONG1981

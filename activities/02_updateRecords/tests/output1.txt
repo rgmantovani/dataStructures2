@@ -1,4 +1,4 @@
-REG.N=13 TOP=12
+REG.N=13 TOP=-1
 Devil May Cry 5|Capcom|Hack and Slash|Multiplataforma|2019|Mature 17+|99.90|Ambos|35.0
 The Binding of Isaac: Rebirth|Nicalis|Roguelike|PC|2014|Mature 17+|27.99|Digital|0.449
 Blasphemous|Team17|Metroidvania|Multiplataforma|2019|Mature+18|57.99|Digital|0.85388
@@ -11,4 +11,4 @@ Arma 3|Bohemia Interactive|Simulacao|PC|2013|Mature 17+|29.99|Digital|40.57
 Halo 4|343 Industries|FPS|Xbox 360/One/Series|2012|Mature 17+|49.00|Ambos|55.0
 Bleach Brave Souls|KlabGames|Action RPG|Multiplataforma|2016|12+|00.00|Digital|5.0
 Counter Strike Global Offensive|Valve|First-person Shooter|PC|2012|16+|F2P|Digital|29.51
-Resident Evil 4,Capcom,Action Horror,Multiplataforma,2005,Mature 17+,190.00,Ambos,15.0
+Resident Evil 4|Capcom|Action Horror|Multiplataforma|2005|Mature 17+|190.00|Ambos|15.0
