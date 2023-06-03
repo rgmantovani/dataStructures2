@@ -16,17 +16,17 @@ Borderlands 3|Gearbox Software|RPG|Multiplataforma|2020|Mature 17+|119.90|Ambos|
 Arma 3|Bohemia Interactive|Simulacao|PC|2013|Mature 17+|29.99|Digital|40.57
 PAYDAY 2|OVERKILL - a Starbreeze Studio|RPG|Multiplataforma|2013|Mature 17+|11.99|Ambos|81.49
 Squad|Offworld Industries|Indie|PC|2020|Mature 17+|70.49|Digital|74.15
-Halo Infinite|343 Industries|First-person Shooter|Multiplataforma|2021|14+|130.00|Ambos|48.42
+Halo Infinite|343 Industries|FPS|Multiplataforma|2021|14+|130.00|Ambos|48.42
 Halo 5: Guardians|343 Industries|FPS|Xbox One/Series|2015|Teen|99.00|Ambos|60.0
-Halo 4|343 Industries|FPS|Xbox 360/One/Series|2012|Mature 17+|49.00|Ambos|55.0
-Halo 3|343 Industries|FPS|Xbox 360/One/Series|2007|Mature 17+|49.00|Ambos|11.0
+Halo 4|343 Industries|FPS|Multiplataforma|2012|Mature 17+|49.00|Ambos|55.0
+Halo 3|343 Industries|FPS|Multiplataforma|2007|Mature 17+|49.00|Ambos|11.0
 Bleach Brave Souls|KlabGames|Action RPG|Multiplataforma|2016|12+|00.00|Digital|5.0
 Counter Strike Global Offensive|Valve|First-person Shooter|PC|2012|16+|F2P|Digital|29.51
 Celeste|Extremely OK Games, Ltd.|Adventure|Multiplataforma|2018|Everyone|36.99|Digital|1.2
 Sifu|Sloclap|Acao e Aventura|Multiplataforma|2022|17+|75.99|Digital|22
-Bloons TD 6|Ninja Kiwi|Estrategia|Multiplataforma|2018|10+|Digital|0.2048
+Bloons TD 6|Ninja Kiwi|Estrategia|Multiplataforma|2018|10+||Digital|0.2048
 Donkey Kong|Shigeru Miyamoto|Plataforma|1981|Everyone|Fisico||
-GTA San Andreas|Rockstar|Mundo aberto|Multiplataforma|2015|18+||Ambos||
+GTA San Andreas|Rockstar|Mundo aberto|Multiplataforma|2015|18+|Ambos|3.6
 GTA V|Rockstar|Mundo aberto|Multiplataforma|2013|18+|Ambos|106.65
 Warframe|Digital Extremes|Action RPG|Multiplataforma|2013|13+|Free|Digital|32.42
 Raft|Redbeet Interactive|Mundo Aberto|PC|2018|10+|36.99|Digital|6.63
@@ -41,27 +41,43 @@ Left 4 Dead 2|Valve|FPS|Multiplataforma|2009|18+|20.69|Ambos|13.93
 Hades|Supergiant Games|RPG|Multiplataforma|2019|14+|47.49|Digital|11.1
 Need for Speed: Underground 2|Electronic Arts|Corrida|Multiplataforma|2004|Everyone|30.00|Fisica|3.00
 Crash of the Titans|Radical Entertainment|Beat ‘em up|Multiplataforma|2007|10+|35.00|Fisica|3.00
-Guitar Hero |Activision|Musical|Multiplataforma|2005|Teen||Fisica|1.63
-Guitar Hero II|Activision|Musical|Multiplataforma|2006|Teen||Fisica|2.92
-Guitar Hero III|Activision|Musical|Multiplataforma|2007|Teen||Fisica|5.1
-Guitar Hero Aerosmith|Activision|Musical|Multiplataforma|2008|Teen||Fisica|4.51
-Guitar Hero Encore: Rock the 80s|Activision|Musical|Multiplataforma|2007|Teen||Fisica|1.31
-Harvest Moon: Back to Nature|Marvelous Entertainment|Simulacao|Multiplataforma|1999|Everyone||Fisica|0.024
-God of War 2|Santa Monica Studios|Hack and Slash|Playstation|2007|Mature 17+||Fisica|5.77 
-Dragon Ball: Budokai Tenkaichi 3|Spike|Acao|Multiplataforma|2007|12+||Fisica|1.21 
-Naruto Shippuden: Ultimate Ninja 5|CyberConnect2|Acao|Playstation 2|2007|12+||Fisica|1.49 
-The Sims 2|Electronic Arts|Simulacao Social|Multiplataforma|2004|Teen||Ambos|3.5
-Burnout 3: Takedown|Criterion Games|Corrida|Multiplataforma|2004|3+||Fisica|1.47 
-Shadow of the Colossus: Remake|Team Ico|Acao|Playstation|2018|Teen|99.50|Ambos|14
-Valorant|Riot Games|FPS|PC|2020|14+|Free|Digital|10
-Call of Duty: Black Ops 2|Treyarch|FPS|Multiplataforma|2012|18+|89.99|Ambos|16
-Horizon Zero Dawn|Guerrilla Games|RPG|Multiplataforma|2017|14+|199.90|Ambos|100
-Marvel's Spider Man|Insomniac Games|Luta|Multiplataforma|2018|12+|249.90|Ambos|75
+Guitar Hero|Activision|Musical|Multiplataforma|2005|Teen| |Fisica|1.63
+Guitar Hero II|Activision|Musical|Multiplataforma|2006|Teen| |Fisica|2.92
+Guitar Hero III|Activision|Musical|Multiplataforma|2007|Teen| |Fisica|5.1
+Guitar Hero Aerosmith|Activision|Musical|Multiplataforma|2008|Teen| |Fisica|4.51
+Guitar Hero Encore: Rock the 80s|Activision|Musical|Multiplataforma|2007|Teen| |Fisica|1.31
+Harvest Moon: Back to Nature|Marvelous Entertainment|Simulacao|Multiplataforma|1999|Everyone| |Fisica|0.024
+God of War 2|Santa Monica Studios|Hack and Slash|Playstation|2007|Mature 17+| |Fisica|5.77 
+Dragon Ball: Budokai Tenkaichi 3|Spike|Acao|Multiplataforma|2007|12+| |Fisica|1.21 
+Naruto Shippuden: Ultimate Ninja 5|CyberConnect2|Acao|Playstation 2|2007|12+| |Fisica|1.49 
+The Sims 2|Electronic Arts|Simulacao Social|Multiplataforma|2004|Teen| |Ambos|3.5
+Burnout 3: Takedown|Criterion Games|Corrida|Multiplataforma|2004|3+| |Fisica|1.47 
+Shadow of the Colossus: Remake|Team Ico|Acao|Playstation|2018|Teen|99.50|Ambos|14.0
+Valorant|Riot Games|FPS|PC|2020|14+|Free|Digital|10.0
+Call of Duty: Black Ops 2|Treyarch|FPS|Multiplataforma|2012|18+|89.99|Ambos|16;0
+Horizon Zero Dawn|Guerrilla Games|RPG|Multiplataforma|2017|14+|199.90|Ambos|100.0
+Marvel's Spider Man|Insomniac Games|Luta|Multiplataforma|2018|12+|249.90|Ambos|75.0
 Shin Megami Tensei: Persona 3|Atlus|RPG|PS2|2006|Mature 17+|30.00|Fisico|1.9
 Team Fortress 2|Valve|FPS|Multiplataforma|2007|Mature 17+|F2P|Ambos|15.0
 Dying Light|Warner Bros|Survival Horror|Multiplataforma|2015|Mature 17+|152.39|Digital|40.0
-Overwatch 2|Blizzard|FPS|Multiplataforma|2022|Teen 13+|F2P|50.0
+Overwatch 2|Blizzard|FPS|Multiplataforma|2022|Teen 13+|F2P|Digital|50.0
 Genshin Impact|miHoYo|RPG|Multiplataforma|2020|Teen|F2P|Digital|30.0
 Destiny|Bungie|FPS/RPG|Multiplataforma|2014|Teen|59.99|Ambos|55.0
 Destiny 2|Bungie|FPS/RPG|Multiplataforma|2017|Teen|F2P|Ambos|68.0
 Minecraft|Microsoft/Mojang|Sandbox|Multiplataforma|2011|Everyone 10+|129.00|Ambos|4.0
+The Hidden and Unknown|Unknown|Mistery|PC|2022|Everyone|5390.99|Digital|0.505
+Resident Evil Remake|Capcom|Survival Horror|Multiplataforma|2002|Mature|66.90|Ambos|4.5
+Elden Ring|From Software|RPG|Multiplataforma|2022|Mature|249.90|Ambos|45.0
+Dark Souls|From Software|RPG|Multiplataforma|2011|Mature|17.50|Ambos|4.0
+Have a Nice Death|Magic Design Studios|Roguelike|Multiplataforma|2022|Teen|Digital|65.99
+The Legend of Zelda: Tears of the Kingdom|Nintendo|Action-adventure|Switch|2023|Everyone 10+|357.99|Ambos|13.4
+Resident Evil 4|Capcom|Action Horror|Multiplataforma|2005|Mature 17+|190.00|Ambos|15.0
+The Witcher 2 - Assassins of Kings|CD Projekt|Action RPG|Multiplataforma|2011|Mature 17+|19.90|Ambos|16.0
+The Witcher 3 - Wild Hunt|CD Projekt|Action RPG|Multiplataforma|2008|Mature 17+|9.90|Ambos|15.0
+Donkey Kong Country|Rare|Side-Scrolling platform|Super Nintendo|1994|Everyone||Ambos|0.04
+Donkey Kong Country 2: Diddy's Kong Quest|Rare|Side-Scrolling platform|Super Nintendo|1995|Everyone||Ambos|0.04
+Donkey Kong Country 3: Dixie Kong's Double Trouble!|Rare|Side-Scrolling platform|Super Nintendo|1996|Everyone||Ambos|0.04
+Donkey Kong Country Returns|Retro Studios|Side-Scrolling platform|Wii|2010|Everyone||Ambos|13.4
+Donkey Kong Country: Tropical Freeze|Retro Studios|Side-Scrolling platform|Wii|2014|Everyone||Ambos|13.4
+Stardew Valley|ConcernedApe|Indie game|Multiplataforma|2016|Everyone|14.99|Digital|0.88
+Animal Crossing: New Horizons|Nintendo|Simulation game|Nintendo Switch|2020|Everyone|300.00|Ambos|10.2
