@@ -81,3 +81,8 @@ Donkey Kong Country Returns|Retro Studios|Side-Scrolling platform|Wii|2010|Every
 Donkey Kong Country: Tropical Freeze|Retro Studios|Side-Scrolling platform|Wii|2014|Everyone||Ambos|13.4
 Stardew Valley|ConcernedApe|Indie game|Multiplataforma|2016|Everyone|14.99|Digital|0.88
 Animal Crossing: New Horizons|Nintendo|Simulation game|Nintendo Switch|2020|Everyone|300.00|Ambos|10.2
+Red Dead Redemption 2|Rockstar Games|Action-adventure|Multiplataforma|2018|18+|99.99|Ambos|150
+The Binding of Isaac: Rebirth|Nicalis|Roguelike|Multiplataforma|2014|18+|14.99|Digital|0.5
+Gris|Nomada Studio|Plataforma|Multiplataforma|2018|Everyone|86.55|Digital |1
+Dark Souls III|FromSoftware|RPG|Multiplataforma|2016|18+|149.89|Ambos|25
+Dead Cells|Motion Twin|Roguelike|Multiplataforma|2018|Mature 17+|24.99|Digital|0.7
