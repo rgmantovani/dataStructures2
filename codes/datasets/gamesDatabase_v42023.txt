@@ -1,3 +1,4 @@
+SIZE=180 N=109
 The Witcher 3 - Wild Hunt|CD Projekt|Action RPG|Multiplataforma|2015|Mature 17+|79.90|Ambos|32.0
 Hollow Knight|Team Cherry|Metroidvania|Multiplataforma|2017|Everyone 10+|24.97|Digital|5.3
 The Legend of Zelda: Breath of the Wild|Nintendo|Action-adventure|Switch|2017|Everyone 10+|199.90|Ambos|13.4
@@ -25,9 +26,9 @@ Counter Strike Global Offensive|Valve|First-person Shooter|PC|2012|16+|F2P|Digit
 Celeste|Extremely OK Games, Ltd.|Adventure|Multiplataforma|2018|Everyone|36.99|Digital|1.2
 Sifu|Sloclap|Acao e Aventura|Multiplataforma|2022|17+|75.99|Digital|22
 Bloons TD 6|Ninja Kiwi|Estrategia|Multiplataforma|2018|10+||Digital|0.2048
-Donkey Kong|Shigeru Miyamoto|Plataforma|1981|Everyone|Fisico||
-GTA San Andreas|Rockstar|Mundo aberto|Multiplataforma|2015|18+|Ambos|3.6
-GTA V|Rockstar|Mundo aberto|Multiplataforma|2013|18+|Ambos|106.65
+Donkey Kong|Shigeru Miyamoto|Plataforma|1981|Everyone|Fisico|||
+GTA San Andreas|Rockstar|Mundo aberto|Multiplataforma|2015|18+|Ambos|3.6|
+GTA V|Rockstar|Mundo aberto|Multiplataforma|2013|18+|Ambos|106.65|
 Warframe|Digital Extremes|Action RPG|Multiplataforma|2013|13+|Free|Digital|32.42
 Raft|Redbeet Interactive|Mundo Aberto|PC|2018|10+|36.99|Digital|6.63
 The Elder Scrolls V: Skyrim|Bethesda Games Studios|RPG|Multiplataforma|2011|17+|39.99|Ambos|13.01
@@ -69,11 +70,10 @@ The Hidden and Unknown|Unknown|Mistery|PC|2022|Everyone|5390.99|Digital|0.505
 Resident Evil Remake|Capcom|Survival Horror|Multiplataforma|2002|Mature|66.90|Ambos|4.5
 Elden Ring|From Software|RPG|Multiplataforma|2022|Mature|249.90|Ambos|45.0
 Dark Souls|From Software|RPG|Multiplataforma|2011|Mature|17.50|Ambos|4.0
-Have a Nice Death|Magic Design Studios|Roguelike|Multiplataforma|2022|Teen|Digital|65.99
+Have a Nice Death|Magic Design Studios|Roguelike|Multiplataforma|2022|Teen|Digital|65.99|
 The Legend of Zelda: Tears of the Kingdom|Nintendo|Action-adventure|Switch|2023|Everyone 10+|357.99|Ambos|13.4
 Resident Evil 4|Capcom|Action Horror|Multiplataforma|2005|Mature 17+|190.00|Ambos|15.0
 The Witcher 2 - Assassins of Kings|CD Projekt|Action RPG|Multiplataforma|2011|Mature 17+|19.90|Ambos|16.0
-The Witcher 3 - Wild Hunt|CD Projekt|Action RPG|Multiplataforma|2008|Mature 17+|9.90|Ambos|15.0
 Donkey Kong Country|Rare|Side-Scrolling platform|Super Nintendo|1994|Everyone||Ambos|0.04
 Donkey Kong Country 2: Diddy's Kong Quest|Rare|Side-Scrolling platform|Super Nintendo|1995|Everyone||Ambos|0.04
 Donkey Kong Country 3: Dixie Kong's Double Trouble!|Rare|Side-Scrolling platform|Super Nintendo|1996|Everyone||Ambos|0.04
@@ -86,3 +86,25 @@ The Binding of Isaac: Rebirth|Nicalis|Roguelike|Multiplataforma|2014|18+|14.99|D
 Gris|Nomada Studio|Plataforma|Multiplataforma|2018|Everyone|86.55|Digital |1
 Dark Souls III|FromSoftware|RPG|Multiplataforma|2016|18+|149.89|Ambos|25
 Dead Cells|Motion Twin|Roguelike|Multiplataforma|2018|Mature 17+|24.99|Digital|0.7
+The Last of Us|Naughty Dog|Sobrevivência|PlayStation|2013|Mature 17+|79.99|Ambos|26.0
+Outlast|Red Barrels Studio|Terror|Multiplataforma|2013|Mature 17+|59.99|Ambos|5.0
+Pokemon FireRed|Nintendo|RPG de turno|GBA|2004|Everyone|69.90|Ambos|0.005 
+Need for Speed World|Electronic Arts|MMORG|PC|2010|Everyone|Free|Digital|2.00
+Need for Speed Carbon|Electronic Arts|Corrida|Multiplataforma|2006|Everyone 10+|90.00|Fisica|5.0
+Need for Speed Most Wanted 2005|Electronic Arts|Corrida|Multiplataforma|2005|Teen|90.00|Fisica|3.0
+Forza Horizon 1|Turn 10 Studios|Corrida|Xbox|2012|Everyone|138.15|Ambos|10.0
+Forza Horizon 2|Turn 10 Studios|Corrida|Xbox|2014|Everyone 10+|220.00|Ambos|6.0
+Forza Horizon 3|Turn 10 Studios|Corrida|Multiplataforma|2016|Everyone|300.00|Ambos|55.0
+Forza Horizon 4|Turn 10 Studios|Corrida|Multiplataforma|2018|Everyone|249.00|Ambos|80.0
+Forza Horizon 5|Turn 10 Studios|Corrida|Multiplataforma|2021|Everyone|249.00|Ambos|110.0
+League of Legends|Riot Games|Moba|PC|2009|Teen|Free|Digital|16.00
+Clash Royale|Supercell|Strategy|Mobile|2016|Everyone|0.00|Digital|0.15
+Call of Duty: Black Ops|Activision|FPS|Multiplataforma|2010|Mature 17+|150.00|Ambos|2.0
+Garry's Mod|Facepunch Studios|Sandbox|PC|2006|Everyone 10+|17.00|Digital|5.0
+Scribblenauts|5th Cell and Warner Bros|Action puzzle platform||Multiplataforma|2009|Free|150.00|Ambos|1.9
+Tom Clancy's Rainbow Six Siege|Ubisoft Montreal|FPS|Multiplataforma|2014|Mature +18|80.00|Digital|61.00
+Doki Doki Literature Club|Team Salvato|Romance|Multiplataforma|2017|Mature 17+|20.00|Digital|0.350
+Freekstyle|Page 44 Studios|Corrida|Multiplataforma|2002|Mature 12+|89.00|Ambos|----
+Resident Evil 4 remake|CAPCOM|Survival Horror|Multiplataforma|2023|Mature 18+|250.00|Ambos|67
+Dragon Ball Z Kakarot|CyberConnect2|Luta|Multiplataforma|2020|12+|70.00|Ambos|34
+Dragon Ball Fighterz|Arc System Works|Luta|Multiplataforma|2018|10+|Ambos|6|
