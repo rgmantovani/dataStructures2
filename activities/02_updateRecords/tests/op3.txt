@@ -1,5 +1,5 @@
-i, 26 Bloons TD 6,Ninja Kiwi,Estrategia,Multiplataforma,2018,10+,,Digital,0.2048
-i, 38 Valheim,Iron Gate AB,RPG,Multiplataforma,2021,12+,37.99,Digital,1.17
+i, Bloons TD 6,Ninja Kiwi,Estrategia,Multiplataforma,2018,10+,,Digital,0.2048
+i, Valheim,Iron Gate AB,RPG,Multiplataforma,2021,12+,37.99,Digital,1.17
 d, LEFT4DEAD22009
 d, MARVELSSPIDERMAN2018
 d, OVERWATCH22022
