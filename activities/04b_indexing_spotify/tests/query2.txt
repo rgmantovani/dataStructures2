@@ -1,0 +1,2 @@
+artist_name & released_year
+Taylor Swift, 2020
