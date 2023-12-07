@@ -1,2 +1,2 @@
-artist_name
+artists
 ACDC
