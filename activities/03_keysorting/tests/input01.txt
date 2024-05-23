@@ -1,0 +1,591 @@
+SORT=Q,ORDER=C
+key,Name,Alignment,Gender,EyeColor,Race,HairColor,Publisher,SkinColor,Height,Weight,Intelligence,Strength,Speed,Durability,Power,Combat,Total
+561|A-Bomb|good|Male|yellow|Human|No Hair|Marvel Comics|-|203|441|38|100|17|80|17|64|316
+321|Abe Sapien|good|Male|blue|Icthyo Sapien|No Hair|Dark Horse Comics|blue|191|65|88|14|35|42|35|85|299
+153|Abin Sur|good|Male|blue|Ungaran|No Hair|DC Comics|red|185|90|50|90|53|64|84|65|406
+74|Abomination|bad|Male|green|Human / Radiation|No Hair|Marvel Comics|-|203|441|63|80|53|90|55|95|436
+228|Abraxas|bad|Male|blue|Cosmic Entity|Black|Marvel Comics|-|-99|-99|88|100|83|99|100|56|526
+146|Adam Monroe|good|Male|blue|-|Blond|NBC - Heroes|-|-99|-99|63|10|12|100|71|64|320
+49|Adam Strange|good|Male|blue|Human|Blond|DC Comics|-|185|88|1|1|1|1|0|1|5
+128|Agent Bob|good|Male|brown|Human|Brown|Marvel Comics|-|178|81|10|8|13|5|5|20|61
+303|Agent Zero|good|Male|-|-|-|Marvel Comics|-|191|104|75|28|38|80|72|95|388
+24|Air-Walker|bad|Male|blue|-|White|Marvel Comics|-|188|108|50|85|100|85|100|40|460
+356|Alan Scott|good|Male|blue|-|Blond|DC Comics|-|180|90|63|80|23|90|98|32|386
+165|Alex Woolsly|good|Male|-|-|-|NBC - Heroes|-|-99|-99|1|1|1|1|0|1|5
+532|Alfred Pennyworth|good|Male|blue|Human|Black|DC Comics|-|178|72|63|10|17|10|7|55|162
+410|Allan Quatermain|good|Male|-|-|-|Wildstorm|-|-99|-99|1|1|1|1|0|1|5
+297|Amazo|bad|Male|red|Android|-|DC Comics|-|257|173|75|100|100|100|100|100|575
+283|Ammo|bad|Male|brown|Human|Black|Marvel Comics|-|188|101|1|1|1|1|0|1|5
+517|Ando Masahashi|good|Male|-|-|-|NBC - Heroes|-|-99|-99|1|1|1|1|0|1|5
+212|Angel|good|Male|-|Vampire|-|Dark Horse Comics|-|-99|-99|63|13|46|64|17|42|245
+259|Angel|good|Male|blue|-|Blond|Marvel Comics|-|183|68|63|13|46|64|17|42|245
+314|Angel Salvadore|good|Female|brown|-|Black|Marvel Comics|-|163|54|38|10|28|28|46|60|210
+481|Angela|bad|Female|-|-|-|Image Comics|-|-99|-99|1|1|1|1|0|1|5
+298|Animal Man|good|Male|blue|Human|Blond|DC Comics|-|183|83|56|48|47|85|73|80|389
+580|Annihilus|bad|Male|green|-|No Hair|Marvel Comics|-|180|90|75|80|47|56|59|64|381
+158|Ant-Man|good|Male|blue|Human|Blond|Marvel Comics|-|211|122|100|10|23|28|32|32|225
+299|Ant-Man II|good|Male|blue|Human|Blond|Marvel Comics|-|183|86|63|10|23|28|32|28|184
+406|Anti-Monitor|bad|Male|yellow|God / Eternal|No Hair|DC Comics|-|61|-99|88|90|38|90|100|90|496
+570|Anti-Spawn|bad|Male|-|-|-|Image Comics|-|-99|-99|1|1|1|1|0|1|5
+292|Apocalypse|bad|Male|red|Mutant|Black|Marvel Comics|grey|213|135|100|100|33|100|100|60|493
+584|Aquababy|good|Male|blue|-|Blond|DC Comics|-|-99|-99|10|16|12|14|37|14|103
+348|Aqualad|good|Male|blue|Atlantean|Black|DC Comics|-|178|106|63|44|42|75|76|60|360
+197|Aquaman|good|Male|blue|Atlantean|Blond|DC Comics|-|185|146|63|80|50|80|65|80|418
+516|Arachne|good|Female|blue|Human|Blond|Marvel Comics|-|175|63|1|1|1|1|0|1|5
+226|Archangel|good|Male|blue|Mutant|Blond|Marvel Comics|blue|183|68|63|13|58|64|28|42|268
+504|Arclight|bad|Female|violet|-|Purple|Marvel Comics|-|173|57|38|63|23|42|52|70|288
+355|Ares|good|Male|brown|-|Brown|Marvel Comics|-|185|270|75|82|35|80|62|101|435
+245|Ariel|good|Female|purple|-|Pink|Marvel Comics|-|165|59|50|10|12|14|72|28|186
+262|Armor|good|Female|black|-|Black|Marvel Comics|-|163|50|50|63|12|80|55|54|314
+390|Arsenal|good|Male|-|Human|-|DC Comics|-|-99|-99|1|1|1|1|0|1|5
+130|Astro Boy|good|Male|brown|-|Black||-|-99|-99|1|1|1|1|0|1|5
+372|Atlas|good|Male|brown|Mutant|Red|Marvel Comics|-|183|101|50|80|23|99|69|42|363
+3|Atom|good|Male|-|-|-|DC Comics|-|-99|-99|1|1|1|1|0|1|5
+374|Atom|good|Male|blue|-|Red|DC Comics|-|178|68|1|1|1|1|0|1|5
+405|Atom Girl|good|Female|black|-|Black|DC Comics|-|168|54|38|10|23|28|38|42|179
+40|Atom II|good|Male|brown|Human|Auburn|DC Comics|-|183|81|1|1|1|1|0|1|5
+573|Atom III|good|Male|-|-|Red|DC Comics|-|-99|-99|1|1|1|1|0|1|5
+33|Atom IV|good|Male|brown|-|Black|DC Comics|-|-99|72|1|1|1|1|0|1|5
+103|Aurora|good|Female|blue|Mutant|Black|Marvel Comics|-|180|63|50|15|83|56|69|56|329
+585|Azazel|bad|Male|yellow|Neyaphem|Black|Marvel Comics|red|183|67|50|11|47|95|87|80|370
+109|Azrael|good|Male|brown|Human|Black|DC Comics|-|-99|-99|63|18|17|20|35|80|233
+329|Aztar|good|Male|-|-|-|DC Comics|-|-99|-99|1|1|1|1|0|1|5
+76|Bane|bad|Male|-|Human|-|DC Comics|-|203|180|88|53|23|56|51|95|366
+491|Banshee|good|Male|green|Human|Strawberry Blond|Marvel Comics|-|183|77|50|10|58|42|60|70|290
+16|Bantam|good|Male|brown|-|Black|Marvel Comics|-|165|54|25|53|23|54|21|56|232
+357|Batgirl III|good|Female|-|-|-|DC Comics|-|-99|-99|1|1|1|1|0|1|5
+248|Batgirl IV|good|Female|green|Human|Black|DC Comics|-|165|52|69|12|27|56|42|100|306
+325|Batgirl V|good|Female|-|-|-|DC Comics|-|-99|-99|1|1|1|1|0|1|5
+82|Batgirl VI|good|Female|blue|-|Blond|DC Comics|-|168|61|75|10|23|28|22|80|238
+534|Batman|good|Male|blue|Human|Black|DC Comics|-|178|77|100|18|27|42|37|100|324
+360|Batman|good|Male|blue|Human|black|DC Comics|-|188|95|100|18|27|42|37|100|324
+296|Batman II|good|Male|blue|Human|Black|DC Comics|-|178|79|88|11|33|28|36|100|296
+149|Battlestar|good|Male|brown|-|Black|Marvel Comics|-|198|133|50|53|35|74|48|74|334
+100|Beak|good|Male|black|-|White|Marvel Comics|-|175|63|1|1|1|1|0|1|5
+568|Beast|good|Male|blue|Mutant|Blue|Marvel Comics|blue|180|181|88|48|35|56|35|84|346
+402|Beast Boy|good|Male|green|Human|Green|DC Comics|green|173|68|50|28|50|70|79|40|317
+91|Beetle|bad|Male|-|-|-|Marvel Comics|-|-99|-99|1|1|1|1|0|1|5
+181|Ben 10|good|Male|-|-|-|DC Comics|-|-99|-99|10|7|8|10|90|40|165
+54|Beta Ray Bill|good|Male|-|-|No Hair|Marvel Comics|-|201|216|63|80|35|95|100|84|457
+288|Beyonder|good|Male|-|God / Eternal|-|Marvel Comics|-|-99|-99|88|100|23|100|100|56|467
+60|Big Daddy|good|Male|-|-|-|Icon Comics|-|-99|-99|38|10|12|32|22|64|178
+285|Big Man|bad|Male|blue|-|Brown|Marvel Comics|-|165|71|75|12|23|28|19|70|227
+377|Bill Harken|good|Male|-|Alpha|-|SyFy|-|-99|-99|63|36|33|60|23|40|255
+427|Billy Kincaid|bad|Male|-|-|-|Image Comics|-|-99|-99|1|1|1|1|0|1|5
+442|Binary|good|Female|blue|-|Blond|Marvel Comics|-|180|54|1|1|1|1|0|1|5
+112|Bird-Brain|good|-|-|-|-|Marvel Comics|-|-99|-99|25|10|35|28|21|42|161
+520|Bird-Man|bad|Male|-|Human|-|Marvel Comics|-|-99|-99|1|1|1|1|0|1|5
+513|Bird-Man II|bad|Male|-|Human|-|Marvel Comics|-|-99|-99|1|1|1|1|0|1|5
+141|Birdman|good|Male|-|God / Eternal|-|Hanna-Barbera|-|-99|-99|1|1|1|1|0|1|5
+206|Bishop|good|Male|brown|Mutant|No Hair|Marvel Comics|-|198|124|63|14|23|75|85|65|325
+389|Bizarro|neutral|Male|black|Bizarro|Black|DC Comics|white|191|155|75|95|100|100|95|85|550
+457|Black Abbott|bad|Male|red|-|Black|Marvel Comics|-|-99|-99|1|1|1|1|0|1|5
+311|Black Adam|bad|Male|brown|-|Black|DC Comics|-|191|113|88|100|92|100|89|56|525
+400|Black Bolt|good|Male|blue|Inhuman|Black|Marvel Comics|-|188|95|75|67|100|84|100|56|482
+474|Black Cat|good|Female|green|Human|Blond|Marvel Comics|-|178|54|75|16|33|10|23|70|227
+565|Black Goliath|good|Male|-|-|-|Marvel Comics|-|-99|-99|1|1|1|1|0|1|5
+42|Black Knight III|good|Male|brown|Human|Brown|Marvel Comics|-|183|86|63|10|8|70|43|70|264
+505|Black Lightning|good|Male|brown|-|No Hair|DC Comics|-|185|90|50|11|53|28|70|75|287
+535|Black Mamba|bad|Female|green|-|Black|Marvel Comics|-|170|52|75|10|35|42|78|65|305
+353|Black Panther|good|Male|brown|Human|Black|Marvel Comics|-|183|90|88|16|30|60|41|100|335
+251|Black Widow|good|Female|green|Human|Auburn|Marvel Comics|-|170|59|75|13|27|32|32|100|279
+441|Black Widow II|good|Female|blue|-|Blond|Marvel Comics|-|170|61|1|1|1|1|0|1|5
+157|Blackout|bad|Male|red|Demon|White|Marvel Comics|white|191|104|63|32|45|80|38|65|323
+25|Blackwing|bad|Male|blue|-|Black|Marvel Comics|-|185|86|38|10|35|32|20|56|191
+371|Blade|good|Male|brown|Vampire|Black|Marvel Comics|-|188|97|63|28|38|50|33|90|302
+191|Blaquesmith|good|-|black|-|No Hair|Marvel Comics|-|-99|-99|1|1|1|1|0|1|5
+32|Bling!|good|Female|-|-|-|Marvel Comics|-|168|68|69|14|12|90|52|28|265
+337|Blink|good|Female|green|Mutant|Magenta|Marvel Comics|pink|165|56|50|8|20|28|55|64|225
+238|Blizzard|bad|Male|-|-|-|Marvel Comics|-|-99|-99|1|1|1|1|0|1|5
+14|Blizzard|bad|Male|-|-|Brown|Marvel Comics|-|-99|-99|1|1|1|1|0|1|5
+111|Blizzard II|bad|Male|brown|-|Brown|Marvel Comics|-|175|77|38|10|27|42|47|56|220
+553|Blob|bad|Male|brown|-|Brown|Marvel Comics|-|178|230|10|83|23|95|26|72|309
+431|Bloodaxe|bad|Female|blue|Human|Brown|Marvel Comics|-|218|495|63|80|33|80|84|84|424
+506|Bloodhawk|good|Male|black|Mutant|No Hair|Marvel Comics|-|-99|-99|50|10|50|80|66|64|320
+446|Bloodwraith|bad|Male|white|-|No Hair|Marvel Comics|-|30.5|-99|1|1|1|1|0|1|5
+421|Blue Beetle|good|Male|blue|-|Brown|DC Comics|-|-99|-99|1|1|1|1|0|1|5
+208|Blue Beetle|good|Male|-|-|-|DC Comics|-|-99|-99|1|1|1|1|0|1|5
+369|Blue Beetle II|good|Male|blue|-|Brown|DC Comics|-|183|86|1|1|1|1|0|1|5
+246|Blue Beetle III|good|Male|brown|Human|Black|DC Comics|-|-99|-99|50|34|58|80|97|30|349
+484|Bolt|good|Male|-|-|-|Marvel Comics|-|-99|-99|1|1|1|1|0|1|5
+242|Bomb Queen|bad|Female|-|-|-|Image Comics|-|-99|-99|1|1|1|1|0|1|5
+287|Boomer|good|Female|-|-|-|Marvel Comics|-|-99|-99|1|1|1|1|0|1|5
+418|Booster Gold|good|Male|blue|Human|Blond|DC Comics|-|196|97|56|85|53|50|72|40|356
+350|Box|good|Male|-|-|-|Marvel Comics|-|-99|-99|1|1|1|1|0|1|5
+224|Box III|good|-|blue|-|Blond|Marvel Comics|-|193|110|1|1|1|1|0|1|5
+490|Box IV|good|-|brown|-|Brown / Black|Marvel Comics|-|-99|-99|50|75|23|28|11|56|243
+214|Brainiac|bad|Male|green|Android|No Hair|DC Comics|green|198|135|100|28|63|90|60|75|416
+294|Brainiac 5|good|Male|green|-|Blond|DC Comics|-|170|61|100|10|23|28|60|32|253
+95|Brother Voodoo|good|Male|brown|Human|Brown / White|Marvel Comics|-|183|99|1|1|1|1|0|1|5
+6|Bullseye|bad|Male|blue|Human|blond|Marvel Comics|-|183|90|50|11|25|70|20|70|246
+340|Bumblebee|good|Female|brown|Human|Black|DC Comics|-|170|59|63|28|25|10|45|35|206
+252|Bumbleboy|good|Male|-|-|-|Marvel Comics|-|-99|-99|1|1|1|1|0|1|5
+271|Bushido|good|Male|-|Human|-|DC Comics|-|-99|-99|38|10|8|10|19|70|155
+34|Cable|good|Male|blue|Mutant|White|Marvel Comics|-|203|158|88|48|23|56|100|80|395
+426|Callisto|bad|Female|blue|-|Black|Marvel Comics|-|175|74|63|53|23|42|45|85|311
+188|Cameron Hicks|good|Male|-|Alpha|-|SyFy|-|-99|-99|50|10|23|28|51|70|232
+254|Cannonball|good|Male|blue|-|Blond|Marvel Comics|-|183|81|50|28|67|99|79|56|379
+268|Captain America|good|Male|blue|Human|blond|Marvel Comics|-|188|108|63|19|35|56|46|100|319
+582|Captain Atom|good|Male|blue|Human / Radiation|Silver|DC Comics|silver|193|90|1|1|1|1|0|1|5
+576|Captain Britain|good|Male|blue|Human|Blond|Marvel Comics|-|198|116|75|77|50|60|31|80|373
+41|Captain Epic|good|Male|blue|-|Brown|Team Epic TV|-|188|-99|1|1|1|1|0|1|5
+193|Captain Mar-vell|good|Male|blue|-|Blond|Marvel Comics|-|188|108|1|1|1|1|0|1|5
+66|Captain Marvel|good|Male|blue|Human|Black|DC Comics|-|193|101|100|100|67|95|62|56|480
+312|Captain Marvel|good|Female|blue|Human-Kree|Blond|Marvel Comics|-|180|74|100|100|67|95|62|56|480
+152|Captain Marvel II|good|Male|blue|Human|Black|DC Comics|-|175|74|75|81|27|90|34|56|363
+98|Captain Planet|good|Male|red|God / Eternal|Green|Marvel Comics|-|-99|-99|1|1|1|1|0|1|5
+498|Captain Universe|good|-|-|God / Eternal|-|Marvel Comics|-|-99|-99|1|1|1|1|0|1|5
+560|Carnage|bad|Male|green|Symbiote|Red|Marvel Comics|-|185|86|63|63|70|84|81|90|451
+107|Cat|good|Female|blue|-|Blond|Marvel Comics|-|173|61|1|1|1|1|0|1|5
+317|Cat II|good|Female|-|-|-|Marvel Comics|-|-99|-99|1|1|1|1|0|1|5
+487|Catwoman|good|Female|green|Human|Black|DC Comics|-|175|61|63|13|33|28|24|85|246
+492|Cecilia Reyes|good|-|brown|-|Brown|Marvel Comics|-|170|62|1|1|1|1|0|1|5
+162|Century|good|Male|white|Alien|White|Marvel Comics|grey|201|97|88|80|53|64|74|100|459
+124|Cerebra|good|Female|-|Mutant|-|Marvel Comics|-|-99|-99|1|1|1|1|0|1|5
+194|Chamber|good|Male|brown|Mutant|Brown|Marvel Comics|-|175|63|50|10|20|80|57|64|281
+473|Chameleon|bad|Male|-|-|-|DC Comics|-|-99|-99|88|10|12|28|28|28|194
+495|Changeling|bad|Male|brown|-|Black|Marvel Comics|-|180|81|63|10|23|42|64|64|266
+411|Cheetah II|bad|Female|green|Human|Brown|DC Comics|-|170|55|1|1|1|1|0|1|5
+394|Cheetah III|bad|Female|brown|Human|Brown|DC Comics|-|175|54|1|1|1|1|0|1|5
+185|Chromos|bad|Male|brown|-|Red / Grey|Team Epic TV|-|185|86|1|1|1|1|0|1|5
+284|Chuck Norris|good|Male|-|-|-||-|178|-99|50|80|47|56|42|99|374
+118|Claire Bennet|good|Female|blue|-|Blond|NBC - Heroes|-|-99|-99|38|9|12|100|73|28|260
+37|Clea|good|-|-|-|White|Marvel Comics|-|-99|-99|1|1|1|1|0|1|5
+138|Cloak|good|Male|brown|-|black|Marvel Comics|-|226|70|63|10|47|64|74|56|314
+482|Cogliostro|bad|Male|-|-|-|Image Comics|-|-99|-99|1|1|1|1|0|1|5
+261|Colin Wagner|good|Male|grey|-|Brown|HarperCollins|-|-99|-99|1|1|1|1|0|1|5
+35|Colossal Boy|good|Male|-|-|-|DC Comics|-|-99|-99|1|1|1|1|0|1|5
+78|Colossus|good|Male|silver|Mutant|Black|Marvel Comics|-|226|225|63|83|33|100|46|80|405
+450|Corsair|good|Male|brown|-|Brown|Marvel Comics|-|191|79|1|1|1|1|0|1|5
+156|Crimson Crusader|good|Male|blue|-|Strawberry Blond|Marvel Comics|-|-99|-99|1|1|1|1|0|1|5
+378|Crystal|good|Female|green|Inhuman|Red|Marvel Comics|-|168|50|63|16|12|14|57|56|218
+97|Curse|bad|Male|-|-|-|Image Comics|-|-99|-99|1|1|1|1|0|1|5
+229|Cy-Gor|bad|Male|-|-|-|Image Comics|-|-99|-99|1|1|1|1|0|1|5
+182|Cyborg|good|Male|brown|Cyborg|Black|DC Comics|-|198|173|75|53|42|85|72|64|391
+127|Cyborg Superman|bad|Male|blue|Cyborg|Black|DC Comics|-|-99|-99|75|93|92|100|100|80|540
+480|Cyclops|good|Male|brown|Mutant|Brown|Marvel Comics|-|191|88|75|10|23|42|76|80|306
+43|Cypher|good|-|blue|-|Blond|Marvel Comics|-|175|68|1|1|1|1|0|1|5
+180|DL Hawkins|good|Male|-|-|-|NBC - Heroes|-|-99|-99|50|12|12|56|48|56|234
+494|Dagger|good|Female|blue|-|Blond|Marvel Comics|-|165|52|63|10|35|42|52|70|272
+27|Danny Cooper|good|Male|brown|-|Blond|HarperCollins|-|-99|-99|1|1|1|1|0|1|5
+30|Daphne Powell|good|Female|-|-|-|ABC Studios|-|-99|-99|38|10|8|10|56|10|132
+424|Daredevil|good|Male|blue|Human|Red|Marvel Comics|-|183|90|75|13|27|28|57|95|295
+579|Darkhawk|good|Male|brown|Human|Brown|Marvel Comics|-|185|81|50|32|33|70|74|64|323
+572|Darkman|good|Male|-|-|-|Universal Studios|-|-99|-99|75|14|23|85|12|28|237
+75|Darkseid|bad|Male|red|New God|No Hair|DC Comics|grey|267|817|88|100|23|100|100|95|506
+201|Darkside|bad|-|-|-|-||-|-99|-99|1|1|1|1|0|1|5
+401|Darkstar|good|Female|brown|Mutant|Blond|Marvel Comics|-|168|56|38|8|35|42|52|64|239
+62|Dash|good|Male|blue|Human|Blond|Dark Horse Comics|-|122|27|9|4|83|42|12|28|178
+269|Dazzler|good|Female|blue|Mutant|Blond|Marvel Comics|-|173|52|63|10|35|42|64|56|270
+382|Deadman|good|Male|blue|Human|Black|DC Comics|-|183|90|50|10|33|100|100|42|335
+448|Deadpool|neutral|Male|brown|Mutant|No Hair|Marvel Comics|-|188|95|50|15|30|100|100|100|395
+63|Deadshot|bad|Male|brown|Human|Brown|DC Comics|-|185|91|50|10|23|28|47|80|238
+583|Deathlok|good|Male|brown|Cyborg|Grey|Marvel Comics|-|193|178|69|32|30|70|40|60|301
+61|Deathstroke|neutral|Male|blue|Human|White|DC Comics|-|193|101|75|30|35|100|36|90|366
+116|Demogoblin|bad|Male|red|Demon|No Hair|Marvel Comics|-|185|95|50|48|42|35|54|60|289
+257|Destroyer|bad|Male|-|-|-|Marvel Comics|-|188|383|50|95|58|98|90|70|461
+415|Doc Samson|good|Male|blue|Human / Radiation|Green|Marvel Comics|-|198|171|75|80|33|80|36|70|374
+28|Doctor Doom|bad|Male|brown|Human|Brown|Marvel Comics|-|201|187|100|32|20|100|93|84|429
+2|Doctor Doom II|bad|Male|brown|-|Brown|Marvel Comics|-|201|132|1|32|1|1|0|1|36
+159|Doctor Fate|good|Male|blue|Human|Blond|DC Comics|-|188|89|81|16|25|80|100|50|352
+136|Doctor Octopus|bad|Male|brown|Human|Brown|Marvel Comics|-|175|110|1|1|1|1|0|1|5
+518|Doctor Strange|good|Male|grey|Human|Black|Marvel Comics|-|188|81|100|10|12|84|100|60|366
+485|Domino|good|Female|blue|Human|Black|Marvel Comics|white|173|54|63|10|27|28|49|74|251
+571|Donna Troy|good|Female|blue|Amazon|Black|DC Comics|-|175|63|1|1|1|1|0|1|5
+429|Doomsday|bad|Male|red|Alien|White|DC Comics|-|244|412|88|80|67|120|100|90|545
+413|Doppelganger|bad|Male|white|-|No Hair|Marvel Comics|-|196|104|8|63|60|95|62|84|372
+12|Dormammu|bad|Male|yellow|-|No Hair|Marvel Comics|-|185|-99|88|95|83|100|100|80|546
+460|Dr Manhattan|good|Male|white|Human / Cosmic|No Hair|DC Comics|blue|-99|-99|88|32|42|95|100|42|399
+566|ERG-1|good|Male|-|-|-|DC Comics|-|-99|-99|1|1|1|1|0|1|5
+51|Ego|bad|-|-|-|-|Marvel Comics|-|-99|-99|88|80|83|99|71|28|449
+351|Elastigirl|good|Female|brown|Human|Brown|Dark Horse Comics|-|168|56|38|32|12|90|20|14|206
+578|Electro|bad|Male|blue|Human|Auburn|Marvel Comics|-|180|74|69|10|50|56|67|64|316
+47|Elektra|good|Female|blue|Human|Black|Marvel Comics|-|175|59|63|11|30|28|59|100|291
+458|Elle Bishop|bad|Female|blue|-|Blond|NBC - Heroes|-|-99|-99|50|8|12|42|63|42|217
+198|Elongated Man|good|Male|blue|-|Red|DC Comics|-|185|80|38|10|27|90|41|42|248
+10|Emma Frost|good|Female|blue|-|Blond|Marvel Comics|-|178|65|75|63|35|90|82|42|387
+255|Energy|good|Female|-|-|-|HarperCollins|-|-99|-99|1|1|1|1|0|1|5
+416|Evilhawk|bad|Male|red|Alien|Black|Marvel Comics|green|191|106|50|32|33|70|78|64|327
+233|Exodus|bad|Male|blue|Mutant|Black|Marvel Comics|red|183|88|63|81|28|28|100|70|370
+549|Fabian Cortez|bad|-|blue|-|Brown|Marvel Comics|-|196|96|1|1|1|1|0|1|5
+338|Falcon|good|Male|brown|Human|Black|Marvel Comics|-|188|108|38|13|50|28|22|64|215
+524|Fallen One II|bad|Male|black|-|Blue|Marvel Comics|-|-99|-99|88|85|83|100|100|56|512
+239|Faora|bad|Female|-|Kryptonian|-|DC Comics|-|-99|-99|88|95|75|100|87|90|535
+500|Feral|good|-|yellow (without irises)|-|Orange / White|Marvel Comics|-|175|50|38|28|45|28|20|70|229
+470|Fighting Spirit|good|Female|-|-|Red|DC Comics|-|-99|-99|1|1|1|1|0|1|5
+93|Fin Fang Foom|good|Male|red|Kakarantharaian|No Hair|Marvel Comics|green|975|18|50|81|23|100|68|70|392
+313|Firebird|good|Female|brown|-|Black|Marvel Comics|-|165|56|38|8|40|14|90|42|232
+84|Firelord|good|-|white|-|Yellow|Marvel Comics|-|193|99|38|63|75|90|48|28|342
+225|Firestar|good|Female|green|Mutant|Red|Marvel Comics|-|173|56|50|8|54|55|71|32|270
+408|Firestorm|good|Male|blue|Human|Auburn|DC Comics|-|188|91|50|53|58|56|100|42|359
+102|Firestorm|good|Male|brown|-|Black|DC Comics|-|-99|-99|50|53|58|56|100|42|359
+171|Fixer|bad|-|red|-|No Hair|Marvel Comics|-|-99|-99|1|1|1|1|0|1|5
+150|Flash Gordon|good|Male|-|-|-||-|-99|-99|1|1|1|1|0|1|5
+428|Flash II|good|Male|blue|Human|Blond|DC Comics|-|183|88|63|10|100|60|66|32|331
+310|Flash III|good|Male|-|Human|-|DC Comics|-|183|86|63|10|100|60|83|32|348
+55|Flash IV|good|Male|yellow|Human|Auburn|DC Comics|-|157|52|63|10|100|32|59|48|312
+523|Forge|good|-|brown|-|Black|Marvel Comics|-|183|81|63|10|12|28|12|48|173
+563|Franklin Richards|good|Male|blue|Mutant|Blond|Marvel Comics|-|142|45|1|1|1|1|0|1|5
+173|Franklin Storm|good|-|blue|-|Grey|Marvel Comics|-|188|92|38|10|1|1|0|10|60
+425|Frenzy|bad|Female|brown|-|Black|Marvel Comics|-|211|104|63|53|35|100|38|52|341
+207|Frigga|good|Female|blue|-|White|Marvel Comics|-|180|167|1|1|1|1|0|1|5
+85|Galactus|neutral|Male|black|Cosmic Entity|Black|Marvel Comics|-|876|16|100|100|83|100|100|70|553
+587|Gambit|good|Male|red|Mutant|Brown|Marvel Comics|-|185|81|63|10|23|28|55|84|263
+358|Garbage Man|good|Male|-|Mutant|-|DC Comics|-|-99|-99|1|1|1|1|0|1|5
+240|Gary Bell|good|Male|-|Alpha|-|SyFy|-|-99|-99|63|5|8|10|54|10|150
+409|General Zod|bad|Male|black|Kryptonian|Black|DC Comics|-|-99|-99|94|100|96|100|94|95|579
+139|Genesis|good|Male|blue|-|Blond|Marvel Comics|-|185|86|1|1|1|1|0|1|5
+432|Ghost Rider|good|Male|red|Demon|No Hair|Marvel Comics|-|188|99|50|55|25|100|70|60|360
+274|Ghost Rider II|good|-|-|-|-|Marvel Comics|-|-99|-99|1|1|1|1|0|1|5
+366|Giant-Man|good|Male|-|Human|-|Marvel Comics|-|-99|-99|1|1|1|1|0|1|5
+557|Giant-Man II|good|Male|-|-|-|Marvel Comics|-|-99|-99|1|1|1|1|0|1|5
+250|Giganta|bad|Female|green|-|Red|DC Comics|-|62.5|630|81|89|23|85|32|42|352
+170|Goblin Queen|bad|Female|green|-|Red|Marvel Comics|-|168|50|75|10|23|28|65|56|257
+562|Gog|bad|Male|-|-|-|DC Comics|-|-99|-99|50|34|47|72|39|56|298
+148|Goku|good|Male|-|Saiyan|-|Shueisha|-|175|62|56|100|75|90|100|100|521
+361|Goliath|good|Male|-|Human|-|Marvel Comics|-|-99|-99|1|1|1|1|0|1|5
+189|Goliath|good|Male|-|-|-|Marvel Comics|-|-99|-99|1|1|1|1|0|1|5
+327|Goliath|good|Male|-|Human|-|Marvel Comics|-|-99|-99|1|1|1|1|0|1|5
+113|Goliath IV|good|Male|brown|-|Black|Marvel Comics|-|183|90|1|1|1|1|0|1|5
+422|Granny Goodness|bad|Female|blue|-|White|DC Comics|-|178|115|1|1|1|1|0|1|5
+94|Gravity|good|Male|blue|Human|Brown|Marvel Comics|-|178|79|50|32|33|40|72|30|257
+133|Green Arrow|good|Male|green|Human|Blond|DC Comics|-|188|88|75|12|35|28|26|90|266
+86|Green Goblin|bad|Male|blue|Human|Auburn|Marvel Comics|-|180|83|75|48|35|48|38|28|272
+114|Green Goblin II|bad|Male|blue|-|Auburn|Marvel Comics|-|178|77|75|55|37|50|38|26|281
+478|Green Goblin III|good|Male|-|-|-|Marvel Comics|-|183|88|1|1|1|1|0|1|5
+169|Green Goblin IV|good|Male|green|-|Brown|Marvel Comics|-|178|79|1|1|1|1|0|1|5
+220|Groot|good|Male|yellow|Flora Colossus|-|Marvel Comics|-|701|4|75|85|33|70|92|64|419
+38|Guardian|good|Male|brown|Human|Black|Marvel Comics|-|-99|-99|1|1|1|1|0|1|5
+115|Guy Gardner|good|Male|blue|Human-Vuldarian|Red|DC Comics|-|188|95|38|80|27|64|97|64|370
+267|Hal Jordan|good|Male|brown|Human|Brown|DC Comics|-|188|90|63|90|53|64|100|56|426
+335|Hancock|good|Male|brown|Human|Black|Sony Pictures|-|188|-99|50|85|65|100|70|28|398
+213|Harley Quinn|bad|Female|blue|Human|Blond|DC Comics|-|170|63|81|12|23|42|30|80|268
+454|Havok|good|Male|blue|Mutant|Blond|Marvel Comics|-|183|79|63|10|25|60|71|45|274
+475|Hawk|good|Male|red|-|Brown|DC Comics|-|185|89|38|38|35|95|36|42|284
+315|Hawkeye|good|Male|blue|Human|Blond|Marvel Comics|-|191|104|50|12|23|14|26|80|205
+343|Hawkeye II|good|Female|blue|Human|Black|Marvel Comics|-|165|57|50|6|8|10|24|50|148
+486|Hawkgirl|good|Female|green|-|Red|DC Comics|-|175|61|50|28|53|99|74|72|376
+187|Hawkman|good|Male|blue|-|Brown|DC Comics|-|185|88|1|1|1|1|0|1|5
+511|Hawkwoman II|good|Female|-|-|-|DC Comics|-|-99|-99|1|1|1|1|0|1|5
+105|Hawkwoman III|good|Female|blue|-|Red|DC Comics|-|170|65|1|1|1|1|0|1|5
+202|Hellboy|good|Male|gold|Demon|Black|Dark Horse Comics|-|259|158|63|53|23|85|30|75|329
+88|Hellcat|good|Female|blue|Human|Red|Marvel Comics|-|173|61|50|10|23|42|18|70|213
+464|Hellstorm|good|Male|red|-|Red|Marvel Comics|-|185|81|1|1|1|1|0|1|5
+380|Hercules|good|Male|blue|Demi-God|Brown|Marvel Comics|-|196|146|63|100|46|85|67|100|461
+307|Hiro Nakamura|good|Male|-|-|-|NBC - Heroes|-|-99|-99|1|1|1|1|0|1|5
+386|Hit-Girl|good|Female|-|Human|-|Icon Comics|-|-99|-99|10|8|23|14|21|56|132
+121|Hobgoblin|bad|Male|blue|-|Grey|Marvel Comics|-|180|83|1|1|1|1|0|1|5
+89|Hollow|good|Female|blue|-|Red|Marvel Comics|-|170|-99|1|1|1|1|0|1|5
+439|Hope Summers|good|Female|green|-|Red|Marvel Comics|-|168|48|63|10|12|32|89|75|281
+447|Howard the Duck|good|Male|brown|-|Yellow|Marvel Comics|-|79|18|1|1|1|1|0|1|5
+163|Hulk|good|Male|green|Human / Radiation|Green|Marvel Comics|green|244|630|88|100|47|100|41|85|461
+574|Human Torch|good|Male|blue|Human / Radiation|Blond|Marvel Comics|-|178|77|56|10|63|70|74|42|315
+46|Huntress|good|Female|blue|-|Black|DC Comics|-|180|59|69|10|23|28|34|95|259
+467|Husk|good|Female|blue|Mutant|Blond|Marvel Comics|-|170|58|63|63|35|78|53|64|356
+280|Hydro-Man|bad|Male|brown|-|Brown|Marvel Comics|-|188|119|38|13|25|80|66|50|272
+244|Hyperion|good|Male|blue|Eternal|Red|Marvel Comics|-|183|207|63|95|75|95|58|72|458
+203|Iceman|good|Male|brown|Mutant|Brown|Marvel Comics|-|173|65|63|32|53|100|100|64|412
+373|Impulse|good|Male|yellow|Human|Auburn|DC Comics|-|170|65|50|10|100|60|63|60|343
+512|Ink|good|Male|blue|Mutant|No Hair|Marvel Comics|-|180|81|38|28|17|40|66|50|239
+289|Invisible Woman|good|Female|blue|Human / Radiation|Blond|Marvel Comics|-|168|54|69|10|27|70|74|56|306
+376|Iron Fist|good|Male|blue|Human|Blond|Marvel Comics|-|180|79|75|23|35|42|43|100|318
+540|Iron Man|good|Male|blue|Human|Black|Marvel Comics|-|198|191|100|85|58|85|100|64|492
+172|Iron Monger|bad|Male|blue|-|No Hair|Marvel Comics|-|-99|2|88|63|25|90|57|56|379
+253|Isis|good|Female|-|-|-|DC Comics|-|-99|-99|75|48|75|46|43|56|343
+135|JJ Powell|good|Male|-|-|-|ABC Studios|-|-99|-99|88|10|8|10|14|10|140
+436|Jack Bauer|good|Male|-|-|-||-|-99|-99|1|1|1|1|0|1|5
+526|Jack of Hearts|good|Male|blue / white|Human|Brown|Marvel Comics|-|155|79|63|55|100|30|70|30|348
+514|Jean Grey|good|Female|green|Mutant|Red|Marvel Comics|-|168|52|100|80|67|100|100|70|517
+577|Jennifer Kale|good|Female|blue|-|Blond|Marvel Comics|-|168|55|75|10|35|42|61|72|295
+365|Jessica Sanders|good|Female|-|-|-|NBC - Heroes|-|-99|-99|1|1|1|1|0|1|5
+403|Jigsaw|bad|Male|blue|-|Black|Marvel Comics|-|188|113|1|1|1|1|0|1|5
+404|Jim Powell|good|Male|-|-|-|ABC Studios|-|-99|-99|38|38|23|80|23|20|222
+538|Johann Krauss|good|Male|-|-|-|Dark Horse Comics|-|-99|-99|1|1|1|1|0|1|5
+479|John Stewart|good|Male|green|Human|Black|DC Comics|-|185|90|50|80|27|64|94|54|369
+235|John Wraith|good|Male|brown|-|Black|Marvel Comics|-|183|88|75|12|35|28|65|80|295
+265|Joker|bad|Male|green|Human|Green|DC Comics|white|196|86|100|10|12|56|22|90|290
+438|Jolt|good|Female|blue|-|Black|Marvel Comics|-|165|49|63|12|27|32|31|42|207
+199|Jubilee|good|Female|red|Mutant|Black|Marvel Comics|-|165|52|56|8|22|20|66|90|262
+333|Juggernaut|neutral|Male|blue|Human|Red|Marvel Comics|-|287|855|44|100|42|100|74|70|430
+533|Junkpile|bad|Male|-|Mutant|-|Marvel Comics|-|-99|-99|50|38|17|90|71|30|296
+108|Justice|good|Male|hazel|Human|Brown|Marvel Comics|-|178|81|50|10|33|70|55|30|248
+588|Kang|bad|Male|brown|-|Brown|Marvel Comics|-|191|104|100|48|58|70|71|70|417
+73|Kick-Ass|good|Male|blue|Human|Blond|Icon Comics|-|-99|-99|10|10|23|14|21|56|134
+147|Kid Flash|good|Male|green|Human|Red|DC Comics|-|-99|-99|25|4|92|42|13|30|206
+309|Kid Flash II|good|Male|-|-|-|DC Comics|-|-99|-99|1|1|1|1|0|1|5
+247|Killer Croc|bad|Male|red|Metahuman|No Hair|DC Comics|green|244|356|25|48|33|85|36|60|287
+131|Kilowog|good|Male|red|Bolovaxian|No Hair|DC Comics|pink|234|324|81|90|53|42|100|80|446
+437|Kingpin|bad|Male|blue|Human|No Hair|Marvel Comics|-|201|203|75|18|25|40|13|70|241
+550|Klaw|bad|Male|red|Human|No Hair|Marvel Comics|red|188|97|63|38|33|100|62|60|356
+20|Kool-Aid Man|good|Male|black|-|No Hair||red|-99|-99|25|10|12|14|10|14|85
+349|Kraven II|bad|Male|brown|Human|Black|Marvel Comics|-|191|99|50|34|23|28|36|85|256
+17|Kraven the Hunter|bad|Male|brown|Human|Black|Marvel Comics|-|183|106|63|32|35|42|26|85|283
+282|Krypto|good|Male|blue|Kryptonian|White|DC Comics|-|64|18|9|80|100|90|72|40|391
+211|Lady Bullseye|bad|Female|-|-|Black|Marvel Comics|-|-99|-99|1|1|1|1|0|1|5
+174|Lady Deathstrike|bad|Female|brown|Cyborg|Black|Marvel Comics|-|175|58|1|1|1|1|0|1|5
+341|Leader|bad|Male|green|-|No Hair|Marvel Comics|-|178|63|100|10|12|14|58|42|236
+178|Leech|good|Male|-|-|-|Marvel Comics|-|-99|-99|25|5|12|14|62|14|132
+179|Lex Luthor|bad|Male|green|Human|No Hair|DC Comics|-|188|95|100|10|12|14|10|28|174
+586|Light Lass|good|Female|blue|-|Red|DC Comics|-|165|54|38|10|35|28|65|42|218
+231|Lightning Lad|good|Male|blue|-|Red|DC Comics|-|155|65|38|10|23|28|60|42|201
+407|Lightning Lord|bad|Male|blue|-|Red|DC Comics|-|191|95|44|10|23|42|66|42|227
+328|Living Brain|bad|-|yellow|-|-|Marvel Comics|-|198|360|75|53|35|56|31|28|278
+281|Liz Sherman|good|Female|-|-|-|Dark Horse Comics|-|-99|-99|1|1|1|1|0|1|5
+278|Lizard|bad|Male|red|Human|No Hair|Marvel Comics|-|203|230|38|51|27|70|40|56|282
+236|Loki|bad|Male|green|Asgardian|Black|Marvel Comics|-|193|236|88|57|47|85|85|56|418
+364|Longshot|good|Male|blue|Human|Blond|Marvel Comics|-|188|36|50|10|27|10|71|70|238
+293|Luke Cage|good|Male|brown|Human|Black|Marvel Comics|-|198|191|44|55|23|95|35|64|316
+106|Luke Campbell|bad|Male|-|-|-|NBC - Heroes|-|-99|-99|1|1|1|1|0|1|5
+543|Luna|good|Female|-|Human|-|Marvel Comics|-|-99|-99|38|6|83|14|53|14|208
+243|Lyja|good|Female|green|-|Green|Marvel Comics|-|-99|-99|1|1|1|1|0|1|5
+256|Mach-IV|bad|Male|brown|-|Brown|Marvel Comics|-|180|79|75|36|60|84|60|56|371
+291|Machine Man|good|-|red|-|Black|Marvel Comics|-|183|383|63|32|35|84|51|64|329
+166|Magneto|bad|Male|grey|Mutant|White|Marvel Comics|-|188|86|88|80|27|84|91|80|450
+137|Magog|good|Male|blue|-|Blond|DC Comics|-|-99|-99|50|48|23|64|66|72|323
+184|Magus|bad|Male|black|-|-|Marvel Comics|-|183|-99|88|100|70|99|100|74|531
+417|Man-Bat|neutral|Male|brown|Human|Brown|DC Comics|-|-99|-99|38|18|50|70|33|30|239
+134|Man-Thing|good|Male|red|-|No Hair|Marvel Comics|green|213|225|50|32|8|100|98|40|328
+31|Man-Wolf|good|Male|brown|-|Auburn|Marvel Comics|-|188|90|63|44|35|42|38|70|292
+559|Mandarin|bad|Male|blue|Human|White|Marvel Comics|-|188|97|100|28|23|28|99|95|373
+142|Martian Manhunter|good|Male|red|Martian|No Hair|DC Comics|green|201|135|100|100|96|100|100|85|581
+192|Marvel Girl|good|Female|green|-|Red|Marvel Comics|-|170|56|63|85|47|42|100|80|417
+234|Master Brood|good|Male|blue|-|Black|Team Epic TV|-|183|81|1|1|1|1|0|1|5
+323|Master Chief|good|Male|brown|Human / Altered|Brown|Microsoft|-|213|-99|75|73|35|80|62|100|425
+443|Match|bad|Male|black|-|Black|DC Comics|-|-99|-99|75|95|83|85|90|70|498
+336|Matt Parkman|good|Male|-|-|-|NBC - Heroes|-|-99|-99|63|10|12|14|59|56|214
+515|Maverick|good|Male|blue|-|Black|Marvel Comics|-|193|110|63|10|12|42|60|85|272
+419|Maxima|bad|Female|brown|-|Red|DC Comics|-|180|72|75|90|35|56|67|75|398
+204|Maya Herrera|good|Female|-|-|-|NBC - Heroes|-|-99|-99|50|10|12|14|60|14|160
+22|Medusa|good|Female|green|Inhuman|Red|Marvel Comics|-|180|59|75|34|35|70|35|56|305
+1|Meltdown|good|Female|blue|-|Blond|Marvel Comics|-|165|54|38|10|12|42|58|64|224
+344|Mephisto|bad|Male|white|-|Black|Marvel Comics|-|198|140|88|85|35|95|100|42|445
+132|Mera|good|Female|blue|Atlantean|Red|DC Comics|-|175|72|56|62|54|70|55|70|367
+67|Metallo|bad|Male|green|Android|Brown|DC Comics|-|196|90|75|53|23|95|74|64|384
+324|Metamorpho|good|Male|black|-|No Hair|DC Comics|-|185|90|1|1|1|1|0|1|5
+53|Meteorite|good|Female|-|-|-|Marvel Comics|-|-99|-99|1|1|1|1|0|1|5
+249|Metron|good|Male|blue|-|Black|DC Comics|-|185|86|88|10|47|56|69|28|298
+125|Micah Sanders|good|Male|brown|-|Black|NBC - Heroes|-|-99|-99|63|8|12|14|57|14|168
+59|Micro Lad|good|Male|grey|-|Brown|DC Comics|-|183|77|38|28|27|28|44|32|197
+69|Mimic|good|Male|brown|-|Brown|Marvel Comics|-|188|101|63|67|47|56|79|42|354
+469|Minna Murray|good|Female|-|-|-|Wildstorm|-|-99|-99|1|1|1|1|0|1|5
+190|Misfit|good|Female|blue|-|Red|DC Comics|-|-99|-99|63|32|23|80|62|42|302
+347|Miss Martian|good|Female|red|-|Red|DC Comics|-|178|61|63|85|58|100|100|45|451
+449|Mister Fantastic|good|Male|brown|Human / Radiation|Brown|Marvel Comics|-|185|81|100|10|18|70|32|64|294
+87|Mister Freeze|bad|Male|-|Human|-|DC Comics|-|183|86|75|32|12|70|37|28|254
+57|Mister Mxyzptlk|bad|Male|-|God / Eternal|-|DC Comics|-|-99|-99|113|10|12|14|100|28|277
+331|Mister Sinister|bad|Male|red|Human / Altered|Black|Marvel Comics|-|196|128|1|1|1|1|0|1|5
+503|Mogo|good|Male|-|Planet|-|DC Comics|-|-99|-99|1|1|1|1|0|1|5
+342|Mohinder Suresh|good|Male|-|-|-|NBC - Heroes|-|-99|-99|1|1|1|1|0|1|5
+332|Moloch|bad|Male|-|-|-|DC Comics|-|-99|-99|1|1|1|1|0|1|5
+330|Molten Man|bad|Male|gold|-|Gold|Marvel Comics|-|196|248|50|73|23|84|53|56|339
+412|Monarch|good|Male|blue|-|White|DC Comics|-|193|90|1|1|1|1|0|1|5
+451|Monica Dawson|good|Female|-|-|-|NBC - Heroes|-|-99|-99|50|10|35|14|48|90|247
+496|Moon Knight|good|Male|brown|Human|Brown|Marvel Comics|-|188|101|50|36|23|42|28|75|254
+589|Morlun|bad|Male|white / red|-|Black|Marvel Comics|-|188|79|63|60|35|42|59|56|315
+564|Morph|good|Male|white|-|No Hair|Marvel Comics|-|178|79|1|1|1|1|0|1|5
+168|Moses Magnum|bad|Male|brown|-|Black|Marvel Comics|-|175|72|75|28|12|42|55|56|268
+548|Mr Incredible|good|Male|blue|Human|Blond|Dark Horse Comics|-|201|158|38|73|35|95|25|42|308
+227|Ms Marvel II|good|Female|blue|-|Red|Marvel Comics|-|173|61|38|63|23|84|11|56|275
+101|Multiple Man|good|Male|blue|-|Brown|Marvel Comics|-|180|70|63|11|23|70|28|62|257
+387|Mystique|bad|Female|yellow (without irises)|Mutant|Red / Orange|Marvel Comics|blue|178|54|75|12|23|64|58|74|306
+499|Namor|good|Male|grey|Atlantean|Black|Marvel Comics|-|188|125|1|1|1|1|0|1|5
+196|Namor|good|Male|-|-|-|Marvel Comics|-|-99|-99|1|1|1|1|0|1|5
+215|Namora|good|Female|blue|-|Blond|Marvel Comics|-|180|85|50|85|42|42|41|64|324
+581|Namorita|good|Female|blue|-|Blond|Marvel Comics|-|168|101|50|72|47|70|30|70|339
+218|Naruto Uzumaki|good|Male|-|Human|-|Shueisha|-|168|54|50|80|32|80|100|100|442
+539|Nathan Petrelli|good|Male|brown|-|-|NBC - Heroes|-|-99|-99|1|1|1|1|0|1|5
+110|Nick Fury|good|Male|brown|Human|Brown / White|Marvel Comics|-|185|99|75|11|23|42|25|100|276
+119|Nightcrawler|good|Male|yellow|-|Indigo|Marvel Comics|-|175|88|50|10|47|14|52|80|253
+453|Nightwing|good|Male|blue|Human|Black|DC Comics|-|178|79|88|11|33|28|36|100|296
+300|Niki Sanders|good|Female|blue|-|Blond|NBC - Heroes|-|-99|-99|63|52|35|28|37|56|271
+217|Nina Theroux|good|Female|-|Alpha|-|SyFy|-|-99|-99|63|5|8|10|54|20|160
+260|Nite Owl II|good|Male|-|-|-|DC Comics|-|-99|-99|1|1|1|1|0|1|5
+80|Northstar|good|Male|blue|-|Black|Marvel Comics|-|180|83|50|18|83|56|70|70|347
+195|Nova|good|Male|brown|Human|Brown|Marvel Comics|-|185|86|38|60|100|100|100|25|423
+354|Nova|good|Male|brown|Human|Brown|Marvel Comics|-|185|86|100|85|67|101|100|85|538
+15|Nova|good|Female|white|Human / Cosmic|Red|Marvel Comics|gold|163|59|38|60|100|100|100|25|423
+497|Nova|good|Female|white|Human / Cosmic|Red|Marvel Comics|gold|163|59|100|85|67|101|100|85|538
+23|Offspring|good|Male|-|-|-|DC Comics|-|-99|-99|50|10|35|99|100|56|350
+273|Omega Red|bad|Male|red|-|Blond|Marvel Comics|-|211|191|1|1|1|1|0|1|5
+83|Omniscient|good|Male|brown|-|Black|Team Epic TV|-|180|65|1|1|1|1|0|1|5
+316|Onslaught|bad|Male|red|Mutant|No Hair|Marvel Comics|-|305|405|88|85|47|100|100|85|505
+507|Osiris|good|Male|brown|-|Brown|DC Comics|-|-99|-99|75|85|60|95|65|42|422
+414|Overtkill|bad|Male|-|-|-|Image Comics|-|-99|-99|1|1|1|1|0|1|5
+545|Penance|good|-|-|-|-|Marvel Comics|-|-99|-99|1|1|1|1|0|1|5
+232|Penance I|good|Female|-|-|-|Marvel Comics|-|-99|-99|1|1|1|1|0|1|5
+11|Penance II|good|Male|blue|-|Blond|Marvel Comics|-|183|89|1|1|1|1|0|1|5
+541|Penguin|bad|Male|blue|Human|Black|DC Comics|-|157|79|75|10|12|28|30|45|200
+26|Peter Petrelli|good|Male|-|-|-|NBC - Heroes|-|-99|-99|63|28|23|28|69|56|267
+263|Phantom|good|Male|-|-|-|DC Comics|-|-99|-99|1|1|1|1|0|1|5
+123|Phantom Girl|good|Female|blue|-|Black|DC Comics|-|168|54|38|10|23|28|53|42|194
+79|Phoenix|good|Female|green|Mutant|Red|Marvel Comics|-|168|52|100|80|67|100|100|70|517
+81|Plastic Lad|good|Male|-|-|-|DC Comics|-|-99|-99|1|1|1|1|0|1|5
+302|Plastic Man|good|Male|blue|Human|Black|DC Comics|-|185|80|50|63|23|100|100|56|392
+547|Plastique|bad|Female|blue|-|Red|DC Comics|-|168|55|50|10|23|28|60|42|213
+528|Poison Ivy|bad|Female|green|Human|Red|DC Comics|green|168|50|69|14|23|14|71|36|227
+525|Power Girl|good|Female|blue|Kryptonian|blond|DC Comics|-|180|81|88|98|67|95|67|75|490
+455|Power Man|good|Male|-|Mutant|-|Marvel Comics|-|-99|-99|1|1|1|1|0|1|5
+567|Professor X|good|Male|blue|Mutant|No Hair|Marvel Comics|-|183|86|100|8|12|14|90|32|256
+345|Proto-Goblin|bad|Male|green|-|Blond|Marvel Comics|-|-99|-99|63|38|23|48|22|28|222
+398|Psylocke|good|Female|blue|Mutant|Purple|Marvel Comics|-|180|70|1|1|1|1|0|1|5
+537|Punisher|good|Male|blue|Human|Black|Marvel Comics|-|183|90|50|16|23|28|22|100|239
+319|Pyro|bad|Male|blue|-|Blond|Marvel Comics|-|178|68|38|10|12|14|50|28|152
+56|Quantum|good|Male|-|-|-|HarperCollins|-|-99|-99|1|1|1|1|0|1|5
+529|Question|good|Male|blue|Human|Blond|DC Comics|-|188|83|81|14|27|35|20|80|257
+318|Quicksilver|good|Male|blue|Mutant|Silver|Marvel Comics|-|183|79|63|28|100|60|57|56|364
+531|Quill|good|Male|brown|-|Brown|Marvel Comics|-|163|56|38|10|12|14|23|14|111
+575|Ra's Al Ghul|bad|Male|green|Human|Grey|DC Comics|-|193|97|100|28|32|42|27|100|329
+258|Rachel Pirzad|good|Female|-|Alpha|-|SyFy|-|-99|-99|63|4|8|10|52|10|147
+45|Raven|neutral|Female|indigo|Human|Black|DC Comics|-|165|50|50|10|29|70|62|40|261
+388|Razor-Fist II|bad|Male|blue|-|No Hair|Marvel Comics|-|191|117|1|1|1|1|0|1|5
+301|Red Arrow|good|Male|green|Human|Red|DC Comics|-|180|83|63|16|25|20|24|80|228
+493|Red Hood|neutral|Male|blue|Human|Black|DC Comics|-|183|81|75|12|23|28|24|95|257
+556|Red Mist|bad|Male|-|-|-|Icon Comics|-|-99|-99|25|10|23|14|20|56|148
+456|Red Robin|good|Male|blue|Human|Black|DC Comics|-|165|56|81|11|27|32|29|80|260
+52|Red Skull|bad|Male|blue|-|No Hair|Marvel Comics|-|188|108|75|10|12|14|19|80|210
+536|Red Tornado|good|Male|green|Android|No Hair|DC Comics|-|185|146|75|38|67|60|92|40|372
+522|Redeemer II|bad|Male|-|-|-|Image Comics|-|-99|-99|1|1|1|1|0|1|5
+430|Redeemer III|bad|Male|-|-|-|Image Comics|-|-99|-99|1|1|1|1|0|1|5
+117|Renata Soliz|good|Female|-|-|-|HarperCollins|-|-99|-99|1|1|1|1|0|1|5
+554|Rhino|bad|Male|brown|Human / Radiation|Brown|Marvel Comics|-|196|320|25|80|43|90|37|85|360
+58|Rick Flag|bad|Male|blue|-|Brown|DC Comics|-|185|85|88|11|23|28|19|95|264
+276|Riddler|bad|Male|-|-|-|DC Comics|-|-99|-99|100|10|12|14|10|14|160
+542|Ripcord|good|Female|green|-|Black|Marvel Comics|-|180|72|1|1|1|1|0|1|5
+544|Robin II|good|Male|blue|Human|Red|DC Comics|-|183|101|1|1|1|1|0|1|5
+104|Robin III|good|Male|blue|Human|Black|DC Comics|-|165|56|81|11|27|28|30|85|262
+551|Robin V|good|Male|blue|Human|Black|DC Comics|-|137|38|69|8|33|16|29|65|220
+359|Rocket Raccoon|good|Male|brown|Animal|Brown|Marvel Comics|-|122|25|50|5|23|28|28|64|198
+126|Rogue|good|Female|green|-|Brown / White|Marvel Comics|-|173|54|75|10|12|28|80|80|285
+435|Ronin|good|Male|blue|Human|Blond|Marvel Comics|-|191|104|38|10|27|32|21|90|218
+155|Rorschach|good|Male|blue|Human|Red|DC Comics|-|168|63|75|10|29|20|23|80|237
+286|Sabretooth|bad|Male|amber|Mutant|Blond|Marvel Comics|-|198|171|55|53|25|90|28|100|351
+275|Sage|good|Female|blue|-|Black|Marvel Comics|-|170|61|75|10|12|14|28|56|195
+122|Sandman|neutral|Male|brown|Human|Brown|Marvel Comics|-|185|203|50|75|47|97|62|56|387
+210|Sasquatch|good|Male|red|-|Orange|Marvel Comics|-|305|900|75|80|23|56|15|42|291
+375|Savage Dragon|good|Male|-|-|-|Image Comics|-|-99|-99|63|70|54|85|49|72|393
+519|Scarecrow|bad|Male|blue|Human|Brown|DC Comics|-|183|63|81|10|12|14|48|50|215
+322|Scarlet Spider|good|Male|blue|Human|Blond|Marvel Comics|-|178|74|75|53|60|74|39|56|357
+384|Scarlet Spider II|good|Male|brown|Clone|Brown|Marvel Comics|-|193|113|88|55|60|40|30|56|329
+488|Scarlet Witch|bad|Female|blue|Mutant|Brown|Marvel Comics|-|170|59|88|10|23|42|67|28|258
+521|Scorpia|bad|Female|green|-|Red|Marvel Comics|-|-99|-99|38|28|42|28|34|28|198
+483|Scorpion|bad|Male|brown|Human|Brown|Marvel Comics|-|211|310|50|52|60|85|49|80|376
+391|Shadow King|good|-|red|-|-|Marvel Comics|-|185|149|75|12|27|100|100|75|389
+140|Shadowcat|good|Female|hazel|Mutant|Brown|Marvel Comics|-|168|50|88|8|21|25|69|70|281
+346|Shang-Chi|good|Male|brown|Human|Black|Marvel Comics|-|178|79|63|12|30|50|25|100|280
+339|Shatterstar|good|Male|brown|-|Red|Marvel Comics|-|191|88|63|48|45|64|42|84|346
+186|She-Hulk|good|Female|green|Human|Green|Marvel Comics|-|201|315|69|100|42|100|33|70|414
+68|She-Thing|good|Female|blue|Human / Radiation|No Hair|Marvel Comics|-|183|153|1|1|1|1|0|1|5
+129|Shocker|bad|Male|brown|Human|Brown|Marvel Comics|-|175|79|63|10|23|70|63|56|285
+527|Shriek|good|Female|yellow / blue|-|Black|Marvel Comics|-|173|52|50|10|23|28|45|42|198
+502|Shrinking Violet|good|Female|-|-|-|DC Comics|-|-99|-99|1|1|1|1|0|1|5
+444|Sif|good|Female|blue|Asgardian|Black|Marvel Comics|-|188|191|50|57|25|52|19|70|273
+72|Silk Spectre II|good|Female|-|-|-|DC Comics|-|-99|-99|1|1|1|1|0|1|5
+463|Silver Surfer|good|Male|white|Alien|No Hair|Marvel Comics|silver|193|101|63|100|84|101|100|32|480
+92|Silverclaw|good|Female|brown|-|Black|Marvel Comics|-|157|50|50|28|35|42|34|42|231
+99|Siren|bad|Female|blue|Atlantean|Purple|DC Comics|-|175|72|38|10|12|14|55|28|157
+230|Siren II|bad|Female|black|-|-|DC Comics|-|-99|-99|1|1|1|1|0|1|5
+205|Siryn|bad|Female|blue|-|Strawberry Blond|Marvel Comics|-|168|52|38|8|47|28|50|42|213
+352|Skaar|good|Male|green|-|Black|Marvel Comics|-|198|180|50|85|27|90|62|85|399
+48|Snowbird|good|Female|white|-|Blond|Marvel Comics|-|178|49|50|32|27|42|63|52|266
+8|Sobek|good|Male|white|-|No Hair|DC Comics|-|-99|-99|50|34|23|46|20|56|229
+96|Solomon Grundy|bad|Male|black|Zombie|White|DC Comics|-|279|437|9|93|13|100|78|30|323
+160|Songbird|good|Female|green|-|Red / White|Marvel Comics|-|165|65|75|36|27|42|55|56|291
+326|Space Ghost|good|Male|-|Human|-|DC Comics|-|188|113|38|18|33|40|90|80|299
+476|Spawn|good|Male|brown|Demon|Black|Image Comics|-|211|405|75|60|50|90|100|95|470
+13|Spectre|good|Male|white|God / Eternal|No Hair|DC Comics|white|-99|-99|1|1|1|1|0|1|5
+18|Speedball|good|Male|-|-|-|Marvel Comics|-|-99|-99|1|1|1|1|0|1|5
+555|Speedy|good|Male|-|Human|-|DC Comics|-|-99|-99|1|1|1|1|0|1|5
+5|Speedy|good|Female|green|Human|Brown|DC Comics|-|-99|-99|1|1|1|1|0|1|5
+306|Spider-Carnage|bad|Male|-|Symbiote|-|Marvel Comics|-|-99|-99|1|1|1|1|0|1|5
+295|Spider-Girl|good|Female|blue|Human|Brown|Marvel Comics|-|170|54|63|38|60|65|46|75|347
+272|Spider-Man|good|Male|brown|Human|Black|Marvel Comics|-|157|56|88|55|60|74|58|85|420
+396|Spider-Man|good|Male|hazel|Human|Brown|Marvel Comics|-|178|74|88|55|60|74|58|85|420
+397|Spider-Man|good|-|red|Human|Brown|Marvel Comics|-|178|77|88|55|60|74|58|85|420
+452|Spider-Woman|good|Female|green|Human|Black|Marvel Comics|-|178|59|50|42|42|32|62|52|280
+19|Spider-Woman II|good|Female|-|-|-|Marvel Comics|-|-99|-99|1|1|1|1|0|1|5
+237|Spider-Woman III|good|Female|brown|-|Brown|Marvel Comics|-|173|55|50|48|27|42|60|28|255
+370|Spider-Woman IV|bad|Female|red|-|White|Marvel Comics|-|178|58|1|1|1|1|0|1|5
+183|Spyke|good|Male|brown|Mutant|Blond|Marvel Comics|-|183|83|50|12|17|60|41|30|210
+395|Stacy X|good|Female|-|-|-|Marvel Comics|-|-99|-99|1|1|1|1|0|1|5
+471|Stardust|good|Male|-|-|-|Marvel Comics|-|-99|-99|88|85|100|110|100|85|568
+154|Starfire|good|Female|green|Tamaranean|Auburn|DC Comics|orange|193|71|50|80|33|85|59|70|377
+445|Stargirl|good|Female|blue|Human|Blond|DC Comics|-|165|62|50|40|27|90|71|56|334
+304|Steel|good|Male|brown|-|No Hair|DC Comics|-|201|131|81|82|53|90|64|64|434
+241|Stephanie Powell|good|Female|-|-|Blond|ABC Studios|-|-99|-99|69|10|54|10|17|10|170
+468|Storm|good|Female|blue|Mutant|White|Marvel Comics|-|180|57|75|10|47|30|88|75|325
+177|Sunspot|good|Male|brown|Mutant|black|Marvel Comics|-|173|77|63|63|35|25|79|70|335
+7|Superboy|good|Male|blue|-|Black|DC Comics|-|170|68|75|95|83|90|84|60|487
+176|Superboy-Prime|bad|Male|blue|Kryptonian|Black / Blue|DC Comics|-|180|77|94|100|100|100|100|85|579
+462|Supergirl|good|Female|blue|Kryptonian|Blond|DC Comics|-|165|54|94|98|92|100|85|75|544
+530|Superman|good|Male|blue|Kryptonian|Black|DC Comics|-|191|101|100|100|100|100|94|85|579
+508|Swamp Thing|bad|Male|red|God / Eternal|No Hair|DC Comics|green|-99|-99|88|80|23|100|66|56|413
+433|Sylar|bad|Male|-|-|-|NBC - Heroes|-|-99|-99|75|10|12|28|91|56|272
+308|Synch|good|Male|brown|-|Black|Marvel Comics|-|180|74|75|67|23|28|74|56|323
+290|Tempest|good|Female|brown|-|Black|Marvel Comics|-|163|54|38|10|45|28|62|60|243
+477|Thanos|bad|Male|red|Eternal|No Hair|Marvel Comics|purple|201|443|88|100|17|100|100|80|485
+270|The Cape|good|Male|-|-|-||-|-99|-99|38|10|23|32|22|64|189
+50|The Comedian|neutral|Male|brown|Human|Black|DC Comics|-|188|101|63|14|17|10|12|80|196
+39|Thing|good|Male|blue|Human / Radiation|No Hair|Marvel Comics|-|183|225|75|84|21|90|26|80|376
+465|Thor|good|Male|blue|Asgardian|Blond|Marvel Comics|-|198|288|69|100|92|100|100|85|546
+77|Thor Girl|good|Female|blue|Asgardian|Blond|Marvel Comics|-|175|143|75|83|70|84|100|70|482
+368|Thunderbird|good|Male|brown|-|Black|Marvel Comics|-|185|101|50|32|27|32|14|70|225
+385|Thunderbird II|good|Male|-|-|-|Marvel Comics|-|-99|-99|1|1|1|1|0|1|5
+90|Thunderbird III|good|Male|brown|-|Black|Marvel Comics|-|175|74|1|1|1|1|0|1|5
+120|Thunderstrike|good|Male|blue|-|Blond|Marvel Comics|-|198|288|63|80|70|84|31|72|400
+145|Thundra|good|Female|green|-|Red|Marvel Comics|-|218|158|38|81|32|64|26|54|295
+552|Tiger Shark|bad|Male|grey|Human|No Hair|Marvel Comics|grey|185|203|38|72|42|70|21|28|271
+320|Tigra|good|Female|green|-|Auburn|Marvel Comics|-|178|81|63|32|53|38|33|90|309
+420|Tinkerer|bad|Male|brown|-|White|Marvel Comics|-|163|54|100|10|23|14|10|14|171
+367|Titan|good|Male|-|-|-|HarperCollins|-|-99|-99|1|1|1|1|0|1|5
+277|Toad|neutral|Male|black|Mutant|Brown|Marvel Comics|green|175|76|50|34|58|56|49|28|275
+440|Toxin|good|Male|black|Symbiote|Blond|Marvel Comics|-|191|117|56|73|70|84|75|70|428
+222|Toxin|good|Male|blue|Symbiote|Brown|Marvel Comics|-|188|97|56|73|70|84|75|70|428
+21|Tracy Strauss|good|Female|-|-|-|NBC - Heroes|-|-99|-99|1|1|1|1|0|1|5
+264|Triplicate Girl|good|Female|purple|-|Brown|DC Comics|-|168|59|63|10|23|42|44|42|224
+266|Two-Face|bad|Male|-|-|-|DC Comics|-|183|82|88|10|12|14|9|28|161
+393|Ultragirl|good|Female|blue|-|Blond|Marvel Comics|-|168|105|50|80|35|70|35|80|350
+175|Ultron|bad|Male|red|Android|-|Marvel Comics|silver|206|331|88|83|42|100|100|64|477
+167|Utgard-Loki|bad|Male|blue|Frost Giant|White|Marvel Comics|-|15.2|58|50|80|23|84|72|64|373
+305|Vagabond|good|Female|blue|-|Strawberry Blond|Marvel Comics|-|168|54|1|1|1|1|0|1|5
+200|Valerie Hart|good|Female|hazel|-|Black|Team Epic TV|-|175|56|1|1|1|1|0|1|5
+489|Valkyrie|good|Female|blue|-|Blond|Marvel Comics|-|191|214|1|1|1|1|0|1|5
+546|Vanisher|bad|Male|green|-|No Hair|Marvel Comics|-|165|79|63|10|75|56|39|42|285
+381|Venom|bad|Male|blue|Symbiote|Strawberry Blond|Marvel Comics|-|191|117|75|57|65|84|79|84|444
+434|Venom II|bad|Male|brown|-|Black|Marvel Comics|-|175|50|50|57|47|70|54|56|334
+558|Venom III|bad|Male|brown|Symbiote|Brown|Marvel Comics|-|229|334|63|73|35|90|66|56|383
+223|Vertigo II|good|Female|blue|-|Silver|Marvel Comics|-|168|52|1|1|1|1|0|1|5
+569|Vindicator|good|Female|green|Human|Red|Marvel Comics|-|165|54|1|1|1|1|0|1|5
+362|Vindicator|good|Male|-|-|-|Marvel Comics|-|-99|-99|1|1|1|1|0|1|5
+164|Violator|bad|Male|-|-|-|Image Comics|-|-99|-99|1|1|1|1|0|1|5
+143|Vision|good|Male|gold|Android|No Hair|Marvel Comics|red|191|135|100|72|54|95|76|70|467
+29|Vision II|good|-|red|-|No Hair|Marvel Comics|-|191|135|1|1|1|1|0|1|5
+423|Vulcan|good|Male|black|-|Black|Marvel Comics|-|-99|-99|1|1|1|1|0|1|5
+383|Vulture|bad|Male|brown|Human|No Hair|Marvel Comics|-|180|79|63|22|47|56|40|56|284
+4|Walrus|bad|Male|blue|Human|Black|Marvel Comics|-|183|162|50|28|8|50|11|20|167
+510|War Machine|good|Male|brown|Human|Brown|Marvel Comics|-|185|95|63|80|63|100|100|85|491
+459|Warbird|good|Female|blue|-|Blond|Marvel Comics|-|180|54|1|1|1|1|0|1|5
+279|Warlock|good|Male|red|-|Blond|Marvel Comics|-|188|108|88|36|79|95|71|95|464
+221|Warp|bad|Male|brown|-|Black|DC Comics|-|173|67|38|10|23|28|63|50|212
+334|Warpath|good|Male|brown|Mutant|Black|Marvel Comics|-|218|158|38|72|47|70|26|84|337
+501|Wasp|good|Female|blue|Human|Auburn|Marvel Comics|-|163|50|63|8|58|52|23|42|246
+216|Watcher|good|Male|-|-|-|Marvel Comics|-|-99|-99|100|80|67|89|100|56|492
+9|Weapon XI|bad|Male|-|-|-|Marvel Comics|-|-99|-99|1|1|1|1|0|1|5
+151|White Queen|good|Female|blue|-|Blond|Marvel Comics|-|178|65|1|1|1|1|0|1|5
+363|Wildfire|good|Male|-|-|-|DC Comics|-|-99|-99|50|32|23|100|77|42|324
+71|Winter Soldier|good|Male|brown|Human|Brown|Marvel Comics|-|175|117|56|32|35|65|60|84|332
+466|Wiz Kid|good|-|brown|-|Black|Marvel Comics|-|140|39|1|1|1|1|0|1|5
+219|Wolfsbane|good|Female|green|-|Auburn|Marvel Comics|-|366|473|38|16|35|42|26|42|199
+65|Wolverine|good|Male|blue|Mutant|Black|Marvel Comics|-|160|135|55|32|38|100|44|100|369
+64|Wonder Girl|good|Female|blue|Demi-God|Blond|DC Comics|-|165|51|75|90|25|80|39|60|369
+399|Wonder Man|good|Male|red|-|Black|Marvel Comics|-|188|171|75|100|53|90|64|64|446
+36|Wonder Woman|good|Female|blue|Amazon|Black|DC Comics|-|183|74|88|100|50|100|42|100|480
+70|Wondra|good|Female|-|-|-|Marvel Comics|-|-99|-99|1|1|1|1|0|1|5
+161|Wyatt Wingfoot|good|Male|brown|-|Black|Marvel Comics|-|196|117|10|10|12|1|1|56|90
+379|X-23|good|Female|green|Mutant / Clone|Black|Marvel Comics|-|155|50|75|24|35|90|27|85|336
+44|X-Man|good|Male|blue|-|Brown|Marvel Comics|-|175|61|88|53|53|95|92|84|465
+509|Yellow Claw|bad|Male|blue|-|No Hair|Marvel Comics|-|188|95|1|1|1|1|0|1|5
+392|Yellowjacket|good|Male|blue|Human|Blond|Marvel Comics|-|183|83|88|10|12|28|12|14|164
+472|Yellowjacket II|good|Female|blue|Human|Strawberry Blond|Marvel Comics|-|165|52|50|10|35|28|31|28|182
+461|Ymir|good|Male|white|Frost Giant|No Hair|Marvel Comics|white|304.8|-99|50|100|27|100|83|28|388
+144|Zatanna|good|Female|blue|Human|Black|DC Comics|-|170|57|75|10|23|28|100|56|292
+209|Zoom|bad|Male|red|-|Brown|DC Comics|-|185|81|50|10|100|28|72|28|288
