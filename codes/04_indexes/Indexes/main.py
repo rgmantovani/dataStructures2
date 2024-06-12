@@ -11,3 +11,6 @@ if __name__ == "__main__":
     print("Record length: " + str(index.getRecordLength()))
     print("--------------------")
     
+    print(index.searchRecord(key="BLACKCLOVER"))
+    print(index.searchRecord(key="ONEPIECE"))
+    print(index.searchRecord(key="NARUTO"))

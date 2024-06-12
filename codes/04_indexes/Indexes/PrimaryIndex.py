@@ -33,7 +33,7 @@ class PrimaryIndex:
         # --------------------------
 
         if(not os.path.exists("index.dat")):
-            print("creating table")
+            print("@ Creating table")
             # iterating all lines and creating index Table
             RRN = 0
             for line in self.__dataFile:
@@ -48,6 +48,7 @@ class PrimaryIndex:
             # setting the number of records
             self.__numberOfRecords = RRN
             self.__numberOfValidRecords = RRN
+            
             # sorting the table
             self.__sortPrimaryTable()
         
@@ -55,10 +56,8 @@ class PrimaryIndex:
         # mod 2: index.dat file exists (load its values)
         # --------------------------
         else:
-            print("Loading previous table")
-            self.__primaryIndexFile = open("index.dat", mode="rb+")
-            unpickler = pickle.Unpickler(self.__primaryIndexFile)
-            self.__primaryTable = pickle.load(self.__primaryIndexFile)
+            print("@ Loading previous table")
+            self.__loadExistingIndexFile()
             
             # setting the number of records
             self.__numberOfRecords = len(self.__primaryTable)
@@ -69,7 +68,9 @@ class PrimaryIndex:
     # -----------------------------------------------------------------
     
     def __loadExistingIndexFile(self):
-        pass
+        self.__primaryIndexFile = open("index.dat", mode="rb+")
+        unpickler = pickle.Unpickler(self.__primaryIndexFile)
+        self.__primaryTable = pickle.load(self.__primaryIndexFile)
       
       
     # -----------------------------------------------------------------
@@ -77,8 +78,11 @@ class PrimaryIndex:
     # -----------------------------------------------------------------
     
     def __storageCompaction(self):
-        pass
-    
+        with open("dataCompacted.txt", mode="w") as file:
+            for record in self.__dataFile:
+                if(record[0] != "*"):
+                    file.write(record)
+      
     # -----------------------------------------------------------------
     # Destructor
     # -----------------------------------------------------------------
@@ -86,11 +90,12 @@ class PrimaryIndex:
     def __del__(self):
         # storage compaction of the datafile
         self.__storageCompaction()
+      
         # save primary index into primaryIndexFile (using pickle)
         if(self.__primaryIndexFile == None):
-            print("aqui")
             self.__primaryIndexFile = open("index.dat", mode="wb")
         pickle.dump(self.__primaryTable, self.__primaryIndexFile)
+      
         self.__dataFile.close()
         self.__primaryIndexFile.close()
     
@@ -121,21 +126,33 @@ class PrimaryIndex:
     # -----------------------------------------------------------------
     
     def __binarySearch(self, key):
-        pass
+        
+        start = 0
+        end   = len(self.__primaryTable) - 1
+        
+        while(start <= end):
+            midpoint = (start + end)//2
+            midtuple = self.__primaryTable[midpoint]
+            if(midtuple[1] == key):
+                return (True, midtuple[0])
+            elif (key < midtuple[1]):
+                end = midpoint-1
+            else:
+                start = midpoint+1
+        return (False, None)
     
     # -----------------------------------------------------------------
     # -----------------------------------------------------------------
-    
     
     def searchRecord(self, key):
-        # 1. Pesquisa/busca binária na Tabela de indices
-        # na coluna Chave Canonica
-        # 2a. Falhou -> return None
-        # 2b. Encontrei: (Caralho! É isso)
-        #   - acessar o RRN (tupla)
-        #   - fazer a leitura do registro no arquivo de dados (via RRN)
-        #   - retornar (registro)
-        pass
+        [status, RRN] = self.__binarySearch(key)
+        if(not status):
+            return([])
+        else:
+            offset = RRN * self.__recordLength
+            self.__dataFile.seek(offset)
+            record = self.__dataFile.readline()
+            return(record)
     
     # -----------------------------------------------------------------
     # -----------------------------------------------------------------
