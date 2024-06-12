@@ -3,6 +3,7 @@
 
 import pickle
 import os 
+import io
 
 # ---------------------------------------------------------------------
 # ---------------------------------------------------------------------
@@ -72,16 +73,15 @@ class PrimaryIndex:
         unpickler = pickle.Unpickler(self.__primaryIndexFile)
         self.__primaryTable = pickle.load(self.__primaryIndexFile)
       
-      
     # -----------------------------------------------------------------
     # Storage Compaction of a file
     # -----------------------------------------------------------------
     
-    def __storageCompaction(self):
-        with open("dataCompacted.txt", mode="w") as file:
-            for record in self.__dataFile:
-                if(record[0] != "*"):
-                    file.write(record)
+    # def __storageCompaction(self):
+    #     with open("dataCompacted.txt", mode="w") as file:
+    #         for record in self.__dataFile:
+    #             if(record[0] != "*"):
+    #                 file.write(record)
       
     # -----------------------------------------------------------------
     # Destructor
@@ -89,7 +89,7 @@ class PrimaryIndex:
     
     def __del__(self):
         # storage compaction of the datafile
-        self.__storageCompaction()
+        # self.__storageCompaction()
       
         # save primary index into primaryIndexFile (using pickle)
         if(self.__primaryIndexFile == None):
@@ -120,16 +120,30 @@ class PrimaryIndex:
     # -----------------------------------------------------------------
     
     def insertRecord(self, record):
-        pass
+        key = self.__createPrimaryKey(record)
+        existingRecord = self.searchRecord(key)
+        if( existingRecord == []):
+            # adding new tuple to the primary table
+            newTuple = (self.__numberOfValidRecords, key)
+            self.__primaryTable.append(newTuple)
+            self.__sortPrimaryTable()
+            # updating statistics
+            self.__numberOfValidRecords = self.__numberOfValidRecords + 1
+            self.__numberOfRecords = self.__numberOfRecords + 1
+            # writing in the file 
+            self.__dataFile.seek(0, io.SEEK_END)
+            
+            self.__dataFile.write("\n" + record)
+            print("New record added")       
+        else:
+            print("There is also a record with this key. Not inserting")
     
     # -----------------------------------------------------------------
     # -----------------------------------------------------------------
     
     def __binarySearch(self, key):
         
-        start = 0
-        end   = len(self.__primaryTable) - 1
-        
+        start, end = 0, len(self.__primaryTable) - 1
         while(start <= end):
             midpoint = (start + end)//2
             midtuple = self.__primaryTable[midpoint]
@@ -146,13 +160,20 @@ class PrimaryIndex:
     
     def searchRecord(self, key):
         [status, RRN] = self.__binarySearch(key)
-        if(not status):
+        if(not status): #not found, does not exist
             return([])
         else:
-            offset = RRN * self.__recordLength
-            self.__dataFile.seek(offset)
-            record = self.__dataFile.readline()
+            record = self.__readRecordByRRN(RRN=RRN)
             return(record)
+    
+    # -----------------------------------------------------------------
+    # -----------------------------------------------------------------
+    
+    def __readRecordByRRN(self, RRN):
+        offset = RRN * self.__recordLength
+        self.__dataFile.seek(offset)
+        record = self.__dataFile.readline()
+        return(record)
     
     # -----------------------------------------------------------------
     # -----------------------------------------------------------------
