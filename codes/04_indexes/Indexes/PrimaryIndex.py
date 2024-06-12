@@ -7,6 +7,14 @@ import io
 
 # ---------------------------------------------------------------------
 # ---------------------------------------------------------------------
+
+# TODO:
+#   - fix RRN counting when creating index from file (after some deletions)
+#   - add reuse (metadata, headers, and so on)
+#   - implement update functions
+
+# ---------------------------------------------------------------------
+# ---------------------------------------------------------------------
     
 class PrimaryIndex:
      
@@ -77,11 +85,14 @@ class PrimaryIndex:
     # Storage Compaction of a file
     # -----------------------------------------------------------------
     
-    # def __storageCompaction(self):
-    #     with open("dataCompacted.txt", mode="w") as file:
-    #         for record in self.__dataFile:
-    #             if(record[0] != "*"):
-    #                 file.write(record)
+    def __storageCompaction(self):
+        storageFile = open("dataCompacted.txt", mode="w")
+        self.__dataFile.seek(0, io.SEEK_SET)
+        for record in self.__dataFile:
+            if(record[0] != "*"):
+                storageFile.write(record)
+            else:
+                print(record)
       
     # -----------------------------------------------------------------
     # Destructor
@@ -89,7 +100,7 @@ class PrimaryIndex:
     
     def __del__(self):
         # storage compaction of the datafile
-        # self.__storageCompaction()
+        self.__storageCompaction()
       
         # save primary index into primaryIndexFile (using pickle)
         if(self.__primaryIndexFile == None):
@@ -120,6 +131,7 @@ class PrimaryIndex:
     # -----------------------------------------------------------------
     
     def insertRecord(self, record):
+        # add new record if there is no previous key with the same value
         key = self.__createPrimaryKey(record)
         existingRecord = self.searchRecord(key)
         if( existingRecord == []):
@@ -132,37 +144,35 @@ class PrimaryIndex:
             self.__numberOfRecords = self.__numberOfRecords + 1
             # writing in the file 
             self.__dataFile.seek(0, io.SEEK_END)
-            
             self.__dataFile.write("\n" + record)
-            print("New record added")       
+            print("New record was added!")       
         else:
             print("There is also a record with this key. Not inserting")
     
     # -----------------------------------------------------------------
     # -----------------------------------------------------------------
     
-    def __binarySearch(self, key):
-        
+    def __binarySearch(self, key): 
         start, end = 0, len(self.__primaryTable) - 1
         while(start <= end):
             midpoint = (start + end)//2
             midtuple = self.__primaryTable[midpoint]
             if(midtuple[1] == key):
-                return (True, midtuple[0])
+                return (True, midpoint, midtuple[0])
             elif (key < midtuple[1]):
                 end = midpoint-1
             else:
                 start = midpoint+1
-        return (False, None)
+        return (False, None, None)
     
     # -----------------------------------------------------------------
     # -----------------------------------------------------------------
     
     def searchRecord(self, key):
-        [status, RRN] = self.__binarySearch(key)
-        if(not status): #not found, does not exist
+        [status, _, RRN] = self.__binarySearch(key)
+        if(not status): # not found, does not exist
             return([])
-        else:
+        else: # read from file, using seek method
             record = self.__readRecordByRRN(RRN=RRN)
             return(record)
     
@@ -179,15 +189,19 @@ class PrimaryIndex:
     # -----------------------------------------------------------------
     
     def deleteRecord(self, key):
-        # 1. Verificar se existe a chave na Tabela de indices
-        #      - se não existir: é tetra (acabou!)
-        # 2. Se existir
-        #      - Invalida/remove o registro no arquivo de indices
-        #      - Opçoes:
-        #          * A: remove a tupla da tabela de Indices
-        #          * B: invalidação da tupla na tabela de Indices
-        pass
-    
+        [status, id, RRN] = self.__binarySearch(key)
+        if(not status):
+            print("There is nothing to remove!")
+        else:        
+            # invalidate record in datafile
+            offset = self.__recordLength * RRN
+            self.__dataFile.seek(offset)
+            self.__dataFile.write("*|")
+        
+            #remove tuple from the primary table
+            self.__primaryTable.pop(id)
+            self.__numberOfValidRecords = self.__numberOfValidRecords - 1
+            print("Record removed!") 
     
     # -----------------------------------------------------------------
     # -----------------------------------------------------------------
@@ -204,6 +218,17 @@ class PrimaryIndex:
     
     # -----------------------------------------------------------------
     # -----------------------------------------------------------------
+  
+    def printStats(self):  
+        print("--------------------")
+        print("Records: " + str(self.getNumberOfRecords()))
+        print("Valid Records: " + str(self.getNumberOfValidRecords()))
+        print("Record length: " + str(self.getRecordLength()))
+        print("--------------------")
+    
+    # -----------------------------------------------------------------
+    # -----------------------------------------------------------------
+    
     
     def getNumberOfRecords(self):
         return(self.__numberOfRecords)
