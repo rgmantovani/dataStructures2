@@ -78,7 +78,6 @@ class PrimaryIndex:
     
     def __loadExistingIndexFile(self):
         self.__primaryIndexFile = open("index.dat", mode="rb+")
-        unpickler = pickle.Unpickler(self.__primaryIndexFile)
         self.__primaryTable = pickle.load(self.__primaryIndexFile)
       
     # -----------------------------------------------------------------
