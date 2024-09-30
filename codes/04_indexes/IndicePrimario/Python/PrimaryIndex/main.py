@@ -17,7 +17,7 @@ if __name__ == "__main__":
     index.insertRecord(record = newRecord)
     index.printStats()
     
-    keys = ["REBORN", "BLEACH", "DEMONKINGDAIMAO"]
+    keys = ["ONEPIECE", "REBORN", "BLEACH", "DEMONKINGDAIMAO"]
     for removeKey in keys:
         index.deleteRecord(key=removeKey)
         index.printStats()
