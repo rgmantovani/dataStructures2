@@ -6,20 +6,20 @@
 #         - debugging: flag para mostrar ou não os passos intermediários da lógica
 # -----------------------------------------------------------------------------------
 
-def EscritaRegistrosFixosCamposVariados(registrosAnime, arquivoSaida = "output.txt", 
+def EscritaRegistrosFixosCamposVariados(registrosAnimes, arquivoSaida = "output.txt", 
     debugging = False):
 
     if(debugging):
-        print(registrosAnime[0]) 
+        print(registrosAnimes[0]) 
 
     # descobrindo o tamanho do maior registro contido no arquivo
-    maiorTamanho = len(max(registrosAnime, key=len))
+    maiorTamanho = len(max(registrosAnimes, key=len))
     if(debugging):
         print(maiorTamanho)
 
     with open(arquivoSaida, mode="w") as file:
         
-        for registro in registrosAnime:
+        for registro in registrosAnimes:
             # substituindo virgula (,) por pipe (|)
             novoRegistro = registro.replace(",", "|")
             novoRegistro = novoRegistro.replace("\n", "")
@@ -44,17 +44,17 @@ if __name__ == "__main__":
     f = open("animes.csv", mode="r", encoding="utf-8")
     
     # Lendo todos os registros e armazenando em uma lista (registrosAnime)
-    registrosAnime = f.readlines()
+    registrosAnimes = f.readlines()
     
     #removendo o cabeçalho (header)
-    registrosAnime.pop(0)
+    registrosAnimes.pop(0)
     
     # fechando o arquivo
     f.close()
     
     # realizando a escrita dos registros em um arquivo com registros de tamanho fixo,
     #  e campos de tamanhos variados
-    EscritaRegistrosFixosCamposVariados(registrosAnimes=registrosAnime, 
+    EscritaRegistrosFixosCamposVariados(registrosAnimes=registrosAnimes, 
         arquivoSaida="fixedLength.txt", debugging=True)
     
 # -----------------------------------------------------------------------------------
