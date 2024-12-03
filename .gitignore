@@ -2,6 +2,5 @@
 *.pyc
 
 # files too large
-activities/04b_indexing_spotify/spotify-1M.zip
-activities/04b_indexing_spotify/spotify-1M.csv
-
+activities/03_indexing_spotify/spotify-1M.zip
+activities/03_indexing_spotify/spotify-1M.csv
