@@ -122,12 +122,12 @@ if __name__ == "__main__":
     # # Abrindo arquivo para leitura via RRN
     arquivoAnimes = open("animes_fixedLength.txt", mode="r", encoding="utf-8")
 
-    # # descobrindo o tamanho do registro se já existe o arquivo de registros
+    # descobrindo o tamanho do registro se já existir o arquivo de registros
     if(tamanhoRegistro == None):
         tamanhoRegistro = len(arquivoAnimes.readline())
     print("Tamanho Registro: " + str(tamanhoRegistro))
  
-    # # descobrindo o tamanho do arquivo, para evitar a consulta de registros que não existem
+    # descobrindo o tamanho do arquivo, para evitar a consulta de registros que não existem
     arquivoAnimes.seek(0, os.SEEK_END)
     tamanhoArquivoAnimes = arquivoAnimes.tell()
     print("Tamanho do Arquivo: " + str(tamanhoArquivoAnimes))
