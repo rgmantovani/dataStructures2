@@ -1,4 +1,19 @@
 # -----------------------------------------------------------------------------------
+# Função: Remove caractere do arquivo
+# Params: 
+#         - registro: registro a ser limpo
+# -----------------------------------------------------------------------------------
+ 
+def limpaString(registro):
+    registro = registro.replace("`", "'")
+    registro = registro.replace("’", "'")
+    registro = registro.replace("ü", "u")
+    registro = registro.replace("í", "i")
+    registro = registro.replace("Ô", "O")
+    registro = registro.replace("á", "a")
+    return(registro)
+    
+# -----------------------------------------------------------------------------------
 # Função: Escrita de registros de tamanho fixo com campos variados (|)
 # Params: 
 #         - registrosAnime: lista com os registros de anime lidos na memória
@@ -20,9 +35,11 @@ def EscritaRegistrosFixosCamposVariados(registrosAnimes, arquivoSaida = "output.
     with open(arquivoSaida, mode="w") as file:
         
         for registro in registrosAnimes:
+            
             # substituindo virgula (,) por pipe (|)
             novoRegistro = registro.replace(",", "|")
             novoRegistro = novoRegistro.replace("\n", "")
+            novoRegistro = limpaString(registro=novoRegistro)
             
             # adicionando explicitamente espaços não usados (caracter *)
             diff = maiorTamanho - len(novoRegistro)
@@ -35,27 +52,22 @@ def EscritaRegistrosFixosCamposVariados(registrosAnimes, arquivoSaida = "output.
             file.write(novoRegistro)
 
 # -----------------------------------------------------------------------------------
-# Função: principal (main)
+# Função: Leitura de registros de tamanho fixo com campos variados (|)
+# Params: 
+#         - arquivoDados: arquivo de dados com os registros gravados no padrão
+#         - tamanhoRegistro: tamanho dos registros de tamanho fixo
+#         - RRN: relative record number, indice do registro que será lido
+#         - debugging: flag para mostrar ou não os passos intermediários da lógica
+# Retornos:
+#         - registro: registro lido com todos os campos disponíveis
 # -----------------------------------------------------------------------------------
 
-if __name__ == "__main__":
+def LeituraRegistrosFixosCamposVariados(arquivoDados, tamanhoRegistro, RRN):
     
-    # Abrindo o arquivo fonte
-    f = open("animes.csv", mode="r", encoding="utf-8")
-    
-    # Lendo todos os registros e armazenando em uma lista (registrosAnime)
-    registrosAnimes = f.readlines()
-    
-    #removendo o cabeçalho (header)
-    registrosAnimes.pop(0)
-    
-    # fechando o arquivo
-    f.close()
-    
-    # realizando a escrita dos registros em um arquivo com registros de tamanho fixo,
-    #  e campos de tamanhos variados
-    EscritaRegistrosFixosCamposVariados(registrosAnimes=registrosAnimes, 
-        arquivoSaida="fixedLength.txt", debugging=True)
-    
+        offset = RRN * tamanhoRegistro
+        arquivoDados.seek(offset)
+        registro = arquivoDados.readline()
+        return(registro)
+
 # -----------------------------------------------------------------------------------
 # -----------------------------------------------------------------------------------
