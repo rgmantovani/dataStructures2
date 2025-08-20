@@ -1,8 +1,13 @@
-def cocktailSort(a):
-    n = len(a)
+# -----------------------------------------
+# -----------------------------------------
+
+def cocktailSort(array):
+    
+    n = len(array)
     swapped = True
     start = 0
     end = n-1
+
     while (swapped==True):
  
         # reset the swapped flag on entering the loop,
@@ -13,8 +18,8 @@ def cocktailSort(a):
         # loop from left to right same as the bubble
         # sort
         for i in range (start, end):
-            if (a[i] > a[i+1]) :
-                a[i], a[i+1]= a[i+1], a[i]
+            if (array[i] > array[i+1]) :
+                array[i], array[i+1]= array[i+1], array[i]
                 swapped=True
  
         # if nothing moved, then array is sorted.
@@ -32,18 +37,21 @@ def cocktailSort(a):
         # from right to left, doing the same
         # comparison as in the previous stage
         for i in range(end-1, start-1,-1):
-            if (a[i] > a[i+1]):
-                a[i], a[i+1] = a[i+1], a[i]
+            if (array[i] > array[i+1]):
+                array[i], array[i+1] = array[i+1], array[i]
                 swapped = True
  
         # increase the starting point, because
         # the last stage would have moved the next
         # smallest number to its rightful spot.
         start = start+1
+
+# -----------------------------------------
+# -----------------------------------------
  
 # Driver code to test above
-a = [5, 1, 4, 2, 8, 0, 2]
-cocktailSort(a)
+array = [5, 1, 4, 2, 8, 0, 2]
+print(array)
+cocktailSort(array)
 print("Sorted array is:")
-for i in range(len(a)):
-    print ("%d" %a[i]),
+print(array)
